@@ -14,13 +14,41 @@ SAFETY_SETTINGS = [
 ]
 
 class GeminiService:
-    """Ultimate service for detailed, human-like, data-rich responses"""
+    """Ultimate service for detailed, human-like, data-rich responses with scope detection"""
 
     def __init__(self):
         genai.configure(api_key=settings.GEMINI_API_KEY)
-        # Keeping the model name as requested
         self.model_name = "gemini-2.0-flash"
         self.conversation_history = {}
+
+    def is_out_of_scope(self, query: str) -> bool:
+        """Detect if the query is related to banking/finance or not"""
+        scope_check_prompt = f"""You are a banking/finance chatbot scope detector. Determine if this query is related to:
+- Banking, finance, money, investments, savings
+- Transactions, spending, budgeting
+- Financial advice, portfolio management
+- Personal finance topics
+
+Query: {query}
+
+Answer ONLY with "IN_SCOPE" or "OUT_OF_SCOPE" (one word only):"""
+
+        try:
+            model = genai.GenerativeModel(self.model_name)
+            response = model.generate_content(
+                scope_check_prompt,
+                generation_config=genai.types.GenerationConfig(temperature=0.1, max_output_tokens=10),
+                safety_settings=SAFETY_SETTINGS
+            )
+
+            if response.parts:
+                result = response.text.strip().upper()
+                return "OUT_OF_SCOPE" in result
+            return False
+
+        except Exception as e:
+            print(f"Scope check error: {e}")
+            return False  # If error, assume in-scope to avoid blocking valid queries
 
     def classify_intent(self, query: str) -> str:
         """Classify user query intent"""
@@ -59,8 +87,19 @@ Intent (one word):"""
         conversation_history: List[Dict] = None,
         previous_thought_signature: Optional[str] = None
     ) -> Dict:
-        """Generate detailed, data-rich AI response"""
+        """Generate detailed, data-rich AI response with scope checking"""
 
+        # CHECK IF OUT OF SCOPE FIRST
+        if self.is_out_of_scope(user_query):
+            out_of_scope_response = f"Hey {customer_profile.get('name', 'there').split()[0]}, I appreciate the question, but I'm specifically designed to help with your finances – things like spending analysis, investment advice, and financial planning. For technical or general questions, you might want to check resources like Google, Stack Overflow, or ChatGPT. Is there anything about your finances I can help with today?"
+
+            return {
+                'response': out_of_scope_response,
+                'thought_signature': None,
+                'model_used': self.model_name
+            }
+
+        # PROCEED WITH NORMAL FLOW IF IN SCOPE
         system_prompt = self._build_detailed_prompt(customer_profile, context_data)
 
         chat_history = []
@@ -83,6 +122,7 @@ User: {user_query}
 
 INSTRUCTIONS FOR ARYA:
 - **{instruction}**
+- **Stay On Topic**: ONLY answer questions related to the customer's finances, banking, investments, or spending. If the question is unrelated, politely decline.
 - **Conversational Flow**: Write in natural paragraphs, not just lists. Tell a story with the data.
 - **Be Detailed**: Go beyond simple answers. Provide numbers, percentages, comparisons, and insights.
 - **Use the Data**: Your answer MUST be grounded in the provided financial data. Mention specific transactions or investments.
@@ -130,6 +170,8 @@ Arya's Detailed Response:"""
         name = customer_profile.get('name', 'there')
 
         prompt = f"""You are Arya, a top-tier financial analyst and relationship manager at SmartBank. Your goal is to provide deep, data-driven insights in a friendly, human way.
+
+IMPORTANT: You can ONLY answer questions related to banking, finance, investments, spending, budgeting, and financial planning. If asked about anything else (programming, general knowledge, etc.), politely decline.
 
 CUSTOMER PROFILE:
 - Name: {name}
