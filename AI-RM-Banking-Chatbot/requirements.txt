@@ -6,3 +6,7 @@ pandas
 google-generativeai
 drf-yasg
 django-redis
+gunicorn
+psycopg2-binary
+whitenoise
+dj-database-url
