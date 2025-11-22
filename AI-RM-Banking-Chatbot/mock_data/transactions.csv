@@ -1,0 +1,1268 @@
+transaction_id,customer_id,date,category,merchant,amount,payment_method,description
+TXN00000023,CUST01001,2025-05-26,investment,Paytm Money,34819,credit_card,Paytm Money - Investment
+TXN00000048,CUST01001,2025-06-05,fuel,HP Petrol,3793,credit_card,HP Petrol - Fuel
+TXN00000012,CUST01001,2025-06-10,groceries,Big Bazaar,4206,credit_card,Big Bazaar - Groceries
+TXN00000056,CUST01001,2025-06-12,investment,Paytm Money,28012,debit_card,Paytm Money - Investment
+TXN00000034,CUST01001,2025-06-13,food_dining,Domino's,1353,netbanking,Domino's - Food Dining
+TXN00000035,CUST01001,2025-06-13,travel,IRCTC,8990,credit_card,IRCTC - Travel
+TXN00000020,CUST01001,2025-06-14,shopping,Pantaloons,2104,credit_card,Pantaloons - Shopping
+TXN00000049,CUST01001,2025-06-21,shopping,Pantaloons,14985,upi,Pantaloons - Shopping
+TXN00000001,CUST01001,2025-06-22,fuel,Bharat Petroleum,4447,debit_card,Bharat Petroleum - Fuel
+TXN00000018,CUST01001,2025-06-22,groceries,DMart,5893,debit_card,DMart - Groceries
+TXN00000040,CUST01001,2025-06-22,healthcare,Fortis Hospital,5262,credit_card,Fortis Hospital - Healthcare
+TXN00000033,CUST01001,2025-06-28,utilities,Internet Bill,2372,credit_card,Internet Bill - Utilities
+TXN00000044,CUST01001,2025-06-28,utilities,Internet Bill,1161,upi,Internet Bill - Utilities
+TXN00000025,CUST01001,2025-07-04,groceries,DMart,1979,debit_card,DMart - Groceries
+TXN00000051,CUST01001,2025-07-10,fuel,Indian Oil,1734,upi,Indian Oil - Fuel
+TXN00000015,CUST01001,2025-07-13,food_dining,Cafe Coffee Day,1082,credit_card,Cafe Coffee Day - Food Dining
+TXN00000041,CUST01001,2025-07-18,utilities,Gas Bill,3315,debit_card,Gas Bill - Utilities
+TXN00000008,CUST01001,2025-07-19,fuel,HP Petrol,3920,credit_card,HP Petrol - Fuel
+TXN00000011,CUST01001,2025-07-23,entertainment,BookMyShow,490,upi,BookMyShow - Entertainment
+TXN00000055,CUST01001,2025-07-23,groceries,DMart,4764,credit_card,DMart - Groceries
+TXN00000013,CUST01001,2025-07-25,groceries,Reliance Fresh,3255,debit_card,Reliance Fresh - Groceries
+TXN00000010,CUST01001,2025-07-28,groceries,More Supermarket,1672,debit_card,More Supermarket - Groceries
+TXN00000053,CUST01001,2025-07-28,groceries,Big Bazaar,4633,upi,Big Bazaar - Groceries
+TXN00000032,CUST01001,2025-07-31,groceries,More Supermarket,3455,credit_card,More Supermarket - Groceries
+TXN00000042,CUST01001,2025-08-01,travel,MakeMyTrip,1964,credit_card,MakeMyTrip - Travel
+TXN00000052,CUST01001,2025-08-19,healthcare,Medlife,13943,debit_card,Medlife - Healthcare
+TXN00000036,CUST01001,2025-08-23,fuel,HP Petrol,2513,credit_card,HP Petrol - Fuel
+TXN00000004,CUST01001,2025-08-26,fuel,Bharat Petroleum,1980,credit_card,Bharat Petroleum - Fuel
+TXN00000016,CUST01001,2025-09-08,travel,IndiGo Airlines,2075,debit_card,IndiGo Airlines - Travel
+TXN00000031,CUST01001,2025-09-10,utilities,Water Bill,2641,credit_card,Water Bill - Utilities
+TXN00000019,CUST01001,2025-09-11,groceries,Reliance Fresh,3546,upi,Reliance Fresh - Groceries
+TXN00000043,CUST01001,2025-09-11,education,Coursera,1116,credit_card,Coursera - Education
+TXN00000037,CUST01001,2025-09-15,education,School Fees,21043,netbanking,School Fees - Education
+TXN00000054,CUST01001,2025-09-23,groceries,Reliance Fresh,4364,credit_card,Reliance Fresh - Groceries
+TXN00000027,CUST01001,2025-09-25,travel,IRCTC,5458,credit_card,IRCTC - Travel
+TXN00000022,CUST01001,2025-09-27,travel,Goibibo,2221,credit_card,Goibibo - Travel
+TXN00000028,CUST01001,2025-10-03,food_dining,Zomato,340,debit_card,Zomato - Food Dining
+TXN00000003,CUST01001,2025-10-08,fuel,Bharat Petroleum,3001,credit_card,Bharat Petroleum - Fuel
+TXN00000006,CUST01001,2025-10-09,healthcare,Fortis Hospital,11609,debit_card,Fortis Hospital - Healthcare
+TXN00000021,CUST01001,2025-10-11,education,Coursera,8745,credit_card,Coursera - Education
+TXN00000026,CUST01001,2025-10-11,food_dining,McDonald's,317,credit_card,McDonald's - Food Dining
+TXN00000007,CUST01001,2025-10-13,food_dining,Domino's,1986,debit_card,Domino's - Food Dining
+TXN00000045,CUST01001,2025-10-14,utilities,Water Bill,539,credit_card,Water Bill - Utilities
+TXN00000047,CUST01001,2025-10-14,food_dining,Zomato,285,credit_card,Zomato - Food Dining
+TXN00000005,CUST01001,2025-10-18,investment,Zerodha,36849,upi,Zerodha - Investment
+TXN00000030,CUST01001,2025-10-18,groceries,Spencer's,1825,debit_card,Spencer's - Groceries
+TXN00000014,CUST01001,2025-10-19,entertainment,Netflix,2137,upi,Netflix - Entertainment
+TXN00000002,CUST01001,2025-10-28,groceries,More Supermarket,7746,credit_card,More Supermarket - Groceries
+TXN00000050,CUST01001,2025-10-31,healthcare,Fortis Hospital,14965,credit_card,Fortis Hospital - Healthcare
+TXN00000017,CUST01001,2025-11-07,food_dining,Starbucks,1691,credit_card,Starbucks - Food Dining
+TXN00000038,CUST01001,2025-11-09,travel,IndiGo Airlines,18473,credit_card,IndiGo Airlines - Travel
+TXN00000039,CUST01001,2025-11-11,food_dining,Zomato,741,credit_card,Zomato - Food Dining
+TXN00000009,CUST01001,2025-11-13,utilities,Mobile Recharge,2619,debit_card,Mobile Recharge - Utilities
+TXN00000029,CUST01001,2025-11-14,fuel,Shell,1491,upi,Shell - Fuel
+TXN00000046,CUST01001,2025-11-18,fuel,Indian Oil,4418,credit_card,Indian Oil - Fuel
+TXN00000024,CUST01001,2025-11-20,investment,Fixed Deposit,48376,upi,Fixed Deposit - Investment
+TXN00000088,CUST01002,2025-05-27,investment,Paytm Money,30558,upi,Paytm Money - Investment
+TXN00000084,CUST01002,2025-06-15,food_dining,Zomato,984,debit_card,Zomato - Food Dining
+TXN00000058,CUST01002,2025-06-24,fuel,Bharat Petroleum,1731,debit_card,Bharat Petroleum - Fuel
+TXN00000075,CUST01002,2025-07-02,utilities,Electricity Bill,936,upi,Electricity Bill - Utilities
+TXN00000070,CUST01002,2025-07-08,utilities,Internet Bill,2611,debit_card,Internet Bill - Utilities
+TXN00000072,CUST01002,2025-07-15,food_dining,Swiggy,701,netbanking,Swiggy - Food Dining
+TXN00000076,CUST01002,2025-07-21,food_dining,Cafe Coffee Day,1260,debit_card,Cafe Coffee Day - Food Dining
+TXN00000090,CUST01002,2025-07-21,travel,MakeMyTrip,14581,debit_card,MakeMyTrip - Travel
+TXN00000059,CUST01002,2025-08-01,food_dining,Domino's,1089,credit_card,Domino's - Food Dining
+TXN00000083,CUST01002,2025-08-07,groceries,More Supermarket,4119,upi,More Supermarket - Groceries
+TXN00000064,CUST01002,2025-08-10,travel,IndiGo Airlines,13682,credit_card,IndiGo Airlines - Travel
+TXN00000060,CUST01002,2025-08-14,shopping,Pantaloons,2394,credit_card,Pantaloons - Shopping
+TXN00000066,CUST01002,2025-08-31,utilities,Gas Bill,3021,debit_card,Gas Bill - Utilities
+TXN00000091,CUST01002,2025-09-02,shopping,Westside,12364,credit_card,Westside - Shopping
+TXN00000067,CUST01002,2025-09-06,entertainment,BookMyShow,1444,credit_card,BookMyShow - Entertainment
+TXN00000089,CUST01002,2025-09-10,travel,IndiGo Airlines,18195,upi,IndiGo Airlines - Travel
+TXN00000068,CUST01002,2025-09-13,healthcare,PharmEasy,11526,credit_card,PharmEasy - Healthcare
+TXN00000069,CUST01002,2025-09-16,shopping,Flipkart,8875,debit_card,Flipkart - Shopping
+TXN00000079,CUST01002,2025-09-16,entertainment,PVR Cinemas,1947,upi,PVR Cinemas - Entertainment
+TXN00000081,CUST01002,2025-09-18,groceries,DMart,6723,credit_card,DMart - Groceries
+TXN00000078,CUST01002,2025-09-21,utilities,Water Bill,2938,credit_card,Water Bill - Utilities
+TXN00000086,CUST01002,2025-09-22,shopping,Flipkart,14146,debit_card,Flipkart - Shopping
+TXN00000092,CUST01002,2025-09-22,fuel,Indian Oil,4714,credit_card,Indian Oil - Fuel
+TXN00000062,CUST01002,2025-10-06,fuel,HP Petrol,2491,debit_card,HP Petrol - Fuel
+TXN00000082,CUST01002,2025-10-06,travel,Ola,9298,debit_card,Ola - Travel
+TXN00000080,CUST01002,2025-10-13,travel,Ola,24668,upi,Ola - Travel
+TXN00000077,CUST01002,2025-10-15,groceries,Big Bazaar,5239,credit_card,Big Bazaar - Groceries
+TXN00000093,CUST01002,2025-10-17,utilities,Electricity Bill,3132,debit_card,Electricity Bill - Utilities
+TXN00000061,CUST01002,2025-10-20,groceries,Big Bazaar,7306,debit_card,Big Bazaar - Groceries
+TXN00000087,CUST01002,2025-10-22,investment,Zerodha,42728,credit_card,Zerodha - Investment
+TXN00000073,CUST01002,2025-10-29,fuel,Indian Oil,2865,debit_card,Indian Oil - Fuel
+TXN00000071,CUST01002,2025-10-31,shopping,Flipkart,11523,credit_card,Flipkart - Shopping
+TXN00000074,CUST01002,2025-11-03,entertainment,Spotify,2224,credit_card,Spotify - Entertainment
+TXN00000063,CUST01002,2025-11-12,fuel,Bharat Petroleum,3717,upi,Bharat Petroleum - Fuel
+TXN00000057,CUST01002,2025-11-15,investment,Fixed Deposit,26702,upi,Fixed Deposit - Investment
+TXN00000065,CUST01002,2025-11-20,groceries,DMart,3071,debit_card,DMart - Groceries
+TXN00000085,CUST01002,2025-11-22,groceries,Reliance Fresh,4839,credit_card,Reliance Fresh - Groceries
+TXN00000108,CUST01003,2025-05-29,fuel,Shell,1432,debit_card,Shell - Fuel
+TXN00000099,CUST01003,2025-05-31,utilities,Gas Bill,1017,debit_card,Gas Bill - Utilities
+TXN00000130,CUST01003,2025-06-08,groceries,Reliance Fresh,2434,upi,Reliance Fresh - Groceries
+TXN00000155,CUST01003,2025-06-17,groceries,More Supermarket,2449,netbanking,More Supermarket - Groceries
+TXN00000119,CUST01003,2025-06-18,groceries,Reliance Fresh,7167,credit_card,Reliance Fresh - Groceries
+TXN00000152,CUST01003,2025-06-18,travel,Goibibo,11221,credit_card,Goibibo - Travel
+TXN00000105,CUST01003,2025-06-21,utilities,Internet Bill,3302,debit_card,Internet Bill - Utilities
+TXN00000153,CUST01003,2025-06-21,fuel,Bharat Petroleum,2686,debit_card,Bharat Petroleum - Fuel
+TXN00000100,CUST01003,2025-06-24,entertainment,Netflix,2104,debit_card,Netflix - Entertainment
+TXN00000106,CUST01003,2025-06-25,education,Unacademy,2345,credit_card,Unacademy - Education
+TXN00000160,CUST01003,2025-06-26,food_dining,Cafe Coffee Day,1446,upi,Cafe Coffee Day - Food Dining
+TXN00000128,CUST01003,2025-06-27,utilities,Mobile Recharge,920,upi,Mobile Recharge - Utilities
+TXN00000159,CUST01003,2025-06-28,fuel,Shell,4607,debit_card,Shell - Fuel
+TXN00000132,CUST01003,2025-07-03,food_dining,Domino's,822,credit_card,Domino's - Food Dining
+TXN00000102,CUST01003,2025-07-06,investment,Zerodha,42924,credit_card,Zerodha - Investment
+TXN00000150,CUST01003,2025-07-09,travel,IndiGo Airlines,14790,upi,IndiGo Airlines - Travel
+TXN00000110,CUST01003,2025-07-10,utilities,Internet Bill,3022,upi,Internet Bill - Utilities
+TXN00000151,CUST01003,2025-07-11,investment,Mutual Fund SIP,46601,upi,Mutual Fund SIP - Investment
+TXN00000117,CUST01003,2025-07-13,food_dining,Cafe Coffee Day,1032,debit_card,Cafe Coffee Day - Food Dining
+TXN00000123,CUST01003,2025-07-14,groceries,Spencer's,7743,debit_card,Spencer's - Groceries
+TXN00000124,CUST01003,2025-07-14,groceries,Reliance Fresh,3765,upi,Reliance Fresh - Groceries
+TXN00000104,CUST01003,2025-07-15,food_dining,Cafe Coffee Day,1901,debit_card,Cafe Coffee Day - Food Dining
+TXN00000142,CUST01003,2025-07-15,shopping,Pantaloons,4183,debit_card,Pantaloons - Shopping
+TXN00000137,CUST01003,2025-07-18,utilities,Internet Bill,3205,credit_card,Internet Bill - Utilities
+TXN00000118,CUST01003,2025-07-26,utilities,Mobile Recharge,2335,upi,Mobile Recharge - Utilities
+TXN00000138,CUST01003,2025-07-26,food_dining,Swiggy,520,credit_card,Swiggy - Food Dining
+TXN00000133,CUST01003,2025-07-28,food_dining,Starbucks,1441,debit_card,Starbucks - Food Dining
+TXN00000141,CUST01003,2025-08-01,healthcare,PharmEasy,11632,upi,PharmEasy - Healthcare
+TXN00000143,CUST01003,2025-08-02,education,Coursera,2954,credit_card,Coursera - Education
+TXN00000127,CUST01003,2025-08-04,food_dining,Swiggy,1333,credit_card,Swiggy - Food Dining
+TXN00000140,CUST01003,2025-08-07,utilities,Mobile Recharge,791,debit_card,Mobile Recharge - Utilities
+TXN00000154,CUST01003,2025-08-07,utilities,Mobile Recharge,2753,credit_card,Mobile Recharge - Utilities
+TXN00000144,CUST01003,2025-08-12,entertainment,PVR Cinemas,1382,debit_card,PVR Cinemas - Entertainment
+TXN00000103,CUST01003,2025-08-13,entertainment,Spotify,1824,upi,Spotify - Entertainment
+TXN00000147,CUST01003,2025-08-16,entertainment,BookMyShow,574,credit_card,BookMyShow - Entertainment
+TXN00000109,CUST01003,2025-08-26,utilities,Mobile Recharge,3397,credit_card,Mobile Recharge - Utilities
+TXN00000126,CUST01003,2025-08-26,food_dining,Swiggy,1650,debit_card,Swiggy - Food Dining
+TXN00000101,CUST01003,2025-08-28,food_dining,Domino's,1731,upi,Domino's - Food Dining
+TXN00000114,CUST01003,2025-08-31,shopping,Westside,14442,credit_card,Westside - Shopping
+TXN00000131,CUST01003,2025-09-05,travel,IRCTC,20925,debit_card,IRCTC - Travel
+TXN00000156,CUST01003,2025-09-06,fuel,Indian Oil,3693,upi,Indian Oil - Fuel
+TXN00000096,CUST01003,2025-09-10,groceries,Big Bazaar,5352,credit_card,Big Bazaar - Groceries
+TXN00000121,CUST01003,2025-09-11,investment,Fixed Deposit,26678,credit_card,Fixed Deposit - Investment
+TXN00000107,CUST01003,2025-09-12,utilities,Electricity Bill,2572,debit_card,Electricity Bill - Utilities
+TXN00000135,CUST01003,2025-09-16,groceries,Spencer's,5012,credit_card,Spencer's - Groceries
+TXN00000113,CUST01003,2025-09-18,groceries,Reliance Fresh,6168,debit_card,Reliance Fresh - Groceries
+TXN00000139,CUST01003,2025-09-18,utilities,Mobile Recharge,1692,credit_card,Mobile Recharge - Utilities
+TXN00000095,CUST01003,2025-09-19,shopping,Westside,5058,upi,Westside - Shopping
+TXN00000122,CUST01003,2025-09-19,groceries,More Supermarket,3388,credit_card,More Supermarket - Groceries
+TXN00000094,CUST01003,2025-09-21,groceries,More Supermarket,4605,credit_card,More Supermarket - Groceries
+TXN00000157,CUST01003,2025-09-21,shopping,Flipkart,8994,credit_card,Flipkart - Shopping
+TXN00000145,CUST01003,2025-09-22,utilities,Mobile Recharge,1615,debit_card,Mobile Recharge - Utilities
+TXN00000115,CUST01003,2025-09-27,groceries,More Supermarket,4288,credit_card,More Supermarket - Groceries
+TXN00000146,CUST01003,2025-09-29,shopping,Pantaloons,1153,upi,Pantaloons - Shopping
+TXN00000158,CUST01003,2025-09-30,utilities,Electricity Bill,1333,credit_card,Electricity Bill - Utilities
+TXN00000125,CUST01003,2025-10-07,entertainment,BookMyShow,995,credit_card,BookMyShow - Entertainment
+TXN00000111,CUST01003,2025-10-10,healthcare,Medlife,7936,upi,Medlife - Healthcare
+TXN00000097,CUST01003,2025-10-11,food_dining,McDonald's,659,debit_card,McDonald's - Food Dining
+TXN00000129,CUST01003,2025-10-19,groceries,Reliance Fresh,5108,credit_card,Reliance Fresh - Groceries
+TXN00000112,CUST01003,2025-10-24,groceries,DMart,2209,credit_card,DMart - Groceries
+TXN00000116,CUST01003,2025-10-25,utilities,Internet Bill,2776,credit_card,Internet Bill - Utilities
+TXN00000134,CUST01003,2025-10-31,groceries,Spencer's,4616,debit_card,Spencer's - Groceries
+TXN00000136,CUST01003,2025-10-31,food_dining,Cafe Coffee Day,403,upi,Cafe Coffee Day - Food Dining
+TXN00000098,CUST01003,2025-11-08,food_dining,Swiggy,706,credit_card,Swiggy - Food Dining
+TXN00000120,CUST01003,2025-11-11,entertainment,Spotify,2467,debit_card,Spotify - Entertainment
+TXN00000148,CUST01003,2025-11-14,education,Unacademy,20238,netbanking,Unacademy - Education
+TXN00000149,CUST01003,2025-11-14,education,Unacademy,2318,upi,Unacademy - Education
+TXN00000186,CUST01004,2025-05-28,fuel,Shell,3556,debit_card,Shell - Fuel
+TXN00000192,CUST01004,2025-06-07,fuel,Shell,3544,upi,Shell - Fuel
+TXN00000205,CUST01004,2025-06-11,utilities,Mobile Recharge,3075,debit_card,Mobile Recharge - Utilities
+TXN00000227,CUST01004,2025-06-11,food_dining,Domino's,2833,debit_card,Domino's - Food Dining
+TXN00000200,CUST01004,2025-06-14,food_dining,Zomato,1867,netbanking,Zomato - Food Dining
+TXN00000234,CUST01004,2025-06-16,food_dining,Swiggy,1766,upi,Swiggy - Food Dining
+TXN00000232,CUST01004,2025-06-19,groceries,More Supermarket,5976,credit_card,More Supermarket - Groceries
+TXN00000219,CUST01004,2025-06-23,utilities,Electricity Bill,1679,credit_card,Electricity Bill - Utilities
+TXN00000206,CUST01004,2025-06-24,food_dining,Swiggy,1486,netbanking,Swiggy - Food Dining
+TXN00000207,CUST01004,2025-06-24,food_dining,Domino's,795,credit_card,Domino's - Food Dining
+TXN00000202,CUST01004,2025-06-26,travel,IndiGo Airlines,17541,debit_card,IndiGo Airlines - Travel
+TXN00000213,CUST01004,2025-06-26,investment,Mutual Fund SIP,18015,debit_card,Mutual Fund SIP - Investment
+TXN00000236,CUST01004,2025-06-26,shopping,Westside,2285,netbanking,Westside - Shopping
+TXN00000173,CUST01004,2025-06-27,travel,IRCTC,22117,upi,IRCTC - Travel
+TXN00000221,CUST01004,2025-06-27,healthcare,PharmEasy,4684,upi,PharmEasy - Healthcare
+TXN00000196,CUST01004,2025-06-28,food_dining,McDonald's,1578,upi,McDonald's - Food Dining
+TXN00000166,CUST01004,2025-06-29,fuel,Bharat Petroleum,4599,credit_card,Bharat Petroleum - Fuel
+TXN00000185,CUST01004,2025-07-01,groceries,More Supermarket,9329,credit_card,More Supermarket - Groceries
+TXN00000217,CUST01004,2025-07-02,healthcare,PharmEasy,1052,credit_card,PharmEasy - Healthcare
+TXN00000218,CUST01004,2025-07-02,investment,Fixed Deposit,38853,upi,Fixed Deposit - Investment
+TXN00000209,CUST01004,2025-07-04,fuel,Indian Oil,5208,debit_card,Indian Oil - Fuel
+TXN00000233,CUST01004,2025-07-04,utilities,Mobile Recharge,1149,credit_card,Mobile Recharge - Utilities
+TXN00000238,CUST01004,2025-07-04,utilities,Gas Bill,1486,credit_card,Gas Bill - Utilities
+TXN00000161,CUST01004,2025-07-05,groceries,Big Bazaar,10848,debit_card,Big Bazaar - Groceries
+TXN00000187,CUST01004,2025-07-05,food_dining,McDonald's,2646,credit_card,McDonald's - Food Dining
+TXN00000197,CUST01004,2025-07-09,groceries,Spencer's,7794,debit_card,Spencer's - Groceries
+TXN00000162,CUST01004,2025-07-22,investment,Zerodha,66482,upi,Zerodha - Investment
+TXN00000193,CUST01004,2025-07-23,entertainment,Prime Video,2034,debit_card,Prime Video - Entertainment
+TXN00000231,CUST01004,2025-07-23,shopping,Westside,13665,debit_card,Westside - Shopping
+TXN00000211,CUST01004,2025-07-25,fuel,Indian Oil,6817,credit_card,Indian Oil - Fuel
+TXN00000220,CUST01004,2025-07-25,entertainment,BookMyShow,1667,credit_card,BookMyShow - Entertainment
+TXN00000215,CUST01004,2025-07-27,investment,Fixed Deposit,32896,credit_card,Fixed Deposit - Investment
+TXN00000176,CUST01004,2025-08-01,shopping,Westside,21893,credit_card,Westside - Shopping
+TXN00000164,CUST01004,2025-08-03,shopping,Westside,16073,credit_card,Westside - Shopping
+TXN00000198,CUST01004,2025-08-03,education,School Fees,32778,netbanking,School Fees - Education
+TXN00000210,CUST01004,2025-08-05,food_dining,McDonald's,1129,debit_card,McDonald's - Food Dining
+TXN00000182,CUST01004,2025-08-09,shopping,Westside,5370,credit_card,Westside - Shopping
+TXN00000199,CUST01004,2025-08-09,healthcare,Max Healthcare,4733,debit_card,Max Healthcare - Healthcare
+TXN00000181,CUST01004,2025-08-10,fuel,Indian Oil,3857,upi,Indian Oil - Fuel
+TXN00000242,CUST01004,2025-08-13,fuel,Bharat Petroleum,1250,credit_card,Bharat Petroleum - Fuel
+TXN00000170,CUST01004,2025-08-16,fuel,HP Petrol,5884,credit_card,HP Petrol - Fuel
+TXN00000228,CUST01004,2025-08-17,shopping,Pantaloons,17985,credit_card,Pantaloons - Shopping
+TXN00000177,CUST01004,2025-08-18,fuel,Shell,3794,debit_card,Shell - Fuel
+TXN00000190,CUST01004,2025-08-25,entertainment,Prime Video,419,netbanking,Prime Video - Entertainment
+TXN00000208,CUST01004,2025-08-28,utilities,Water Bill,4033,debit_card,Water Bill - Utilities
+TXN00000172,CUST01004,2025-08-31,shopping,Flipkart,16830,netbanking,Flipkart - Shopping
+TXN00000189,CUST01004,2025-09-01,fuel,Indian Oil,3143,credit_card,Indian Oil - Fuel
+TXN00000175,CUST01004,2025-09-07,fuel,HP Petrol,1812,debit_card,HP Petrol - Fuel
+TXN00000171,CUST01004,2025-09-08,food_dining,Cafe Coffee Day,2177,upi,Cafe Coffee Day - Food Dining
+TXN00000183,CUST01004,2025-09-08,entertainment,Netflix,1632,credit_card,Netflix - Entertainment
+TXN00000188,CUST01004,2025-09-11,utilities,Mobile Recharge,3074,credit_card,Mobile Recharge - Utilities
+TXN00000240,CUST01004,2025-09-12,fuel,Indian Oil,6188,upi,Indian Oil - Fuel
+TXN00000180,CUST01004,2025-09-14,investment,Zerodha,64153,credit_card,Zerodha - Investment
+TXN00000174,CUST01004,2025-09-15,food_dining,Starbucks,302,upi,Starbucks - Food Dining
+TXN00000226,CUST01004,2025-09-16,food_dining,Swiggy,1559,debit_card,Swiggy - Food Dining
+TXN00000223,CUST01004,2025-09-18,travel,IRCTC,3201,upi,IRCTC - Travel
+TXN00000222,CUST01004,2025-09-24,travel,MakeMyTrip,33995,debit_card,MakeMyTrip - Travel
+TXN00000225,CUST01004,2025-09-25,fuel,Shell,6820,credit_card,Shell - Fuel
+TXN00000169,CUST01004,2025-09-26,shopping,Pantaloons,18407,credit_card,Pantaloons - Shopping
+TXN00000178,CUST01004,2025-09-27,fuel,Indian Oil,6258,credit_card,Indian Oil - Fuel
+TXN00000167,CUST01004,2025-10-02,groceries,Big Bazaar,6434,upi,Big Bazaar - Groceries
+TXN00000229,CUST01004,2025-10-02,entertainment,BookMyShow,1177,upi,BookMyShow - Entertainment
+TXN00000165,CUST01004,2025-10-14,food_dining,Zomato,2695,debit_card,Zomato - Food Dining
+TXN00000216,CUST01004,2025-10-14,groceries,DMart,5617,credit_card,DMart - Groceries
+TXN00000201,CUST01004,2025-10-15,shopping,Westside,1056,credit_card,Westside - Shopping
+TXN00000235,CUST01004,2025-10-15,food_dining,Domino's,2540,credit_card,Domino's - Food Dining
+TXN00000239,CUST01004,2025-10-15,shopping,Myntra,19412,credit_card,Myntra - Shopping
+TXN00000168,CUST01004,2025-10-23,entertainment,Spotify,1457,debit_card,Spotify - Entertainment
+TXN00000237,CUST01004,2025-10-26,groceries,Big Bazaar,11268,debit_card,Big Bazaar - Groceries
+TXN00000184,CUST01004,2025-10-29,fuel,HP Petrol,5276,upi,HP Petrol - Fuel
+TXN00000194,CUST01004,2025-10-31,groceries,DMart,3391,upi,DMart - Groceries
+TXN00000204,CUST01004,2025-10-31,fuel,Bharat Petroleum,6197,credit_card,Bharat Petroleum - Fuel
+TXN00000179,CUST01004,2025-11-03,utilities,Internet Bill,2463,upi,Internet Bill - Utilities
+TXN00000203,CUST01004,2025-11-05,investment,Zerodha,36647,debit_card,Zerodha - Investment
+TXN00000214,CUST01004,2025-11-06,utilities,Electricity Bill,1014,upi,Electricity Bill - Utilities
+TXN00000163,CUST01004,2025-11-07,education,Byju's,20327,debit_card,Byju's - Education
+TXN00000195,CUST01004,2025-11-07,food_dining,Starbucks,376,debit_card,Starbucks - Food Dining
+TXN00000212,CUST01004,2025-11-07,shopping,Westside,9640,credit_card,Westside - Shopping
+TXN00000230,CUST01004,2025-11-08,fuel,HP Petrol,4723,debit_card,HP Petrol - Fuel
+TXN00000191,CUST01004,2025-11-10,shopping,Amazon,19144,upi,Amazon - Shopping
+TXN00000224,CUST01004,2025-11-10,travel,Goibibo,2401,credit_card,Goibibo - Travel
+TXN00000241,CUST01004,2025-11-19,groceries,DMart,6277,upi,DMart - Groceries
+TXN00000253,CUST01005,2025-05-27,travel,Goibibo,11874,credit_card,Goibibo - Travel
+TXN00000304,CUST01005,2025-05-27,fuel,Indian Oil,3296,credit_card,Indian Oil - Fuel
+TXN00000258,CUST01005,2025-05-31,investment,Groww,66305,upi,Groww - Investment
+TXN00000244,CUST01005,2025-06-02,food_dining,Domino's,1121,credit_card,Domino's - Food Dining
+TXN00000272,CUST01005,2025-06-05,travel,IRCTC,12696,credit_card,IRCTC - Travel
+TXN00000275,CUST01005,2025-06-05,groceries,Reliance Fresh,8999,debit_card,Reliance Fresh - Groceries
+TXN00000278,CUST01005,2025-06-19,entertainment,Spotify,2567,credit_card,Spotify - Entertainment
+TXN00000262,CUST01005,2025-06-24,travel,Ola,23256,credit_card,Ola - Travel
+TXN00000286,CUST01005,2025-06-30,food_dining,McDonald's,654,debit_card,McDonald's - Food Dining
+TXN00000295,CUST01005,2025-06-30,fuel,Indian Oil,6452,debit_card,Indian Oil - Fuel
+TXN00000305,CUST01005,2025-07-03,entertainment,PVR Cinemas,3707,credit_card,PVR Cinemas - Entertainment
+TXN00000264,CUST01005,2025-07-15,food_dining,Zomato,2924,credit_card,Zomato - Food Dining
+TXN00000252,CUST01005,2025-07-19,healthcare,Max Healthcare,10444,credit_card,Max Healthcare - Healthcare
+TXN00000285,CUST01005,2025-07-19,shopping,Westside,6891,credit_card,Westside - Shopping
+TXN00000261,CUST01005,2025-07-21,shopping,Flipkart,3102,debit_card,Flipkart - Shopping
+TXN00000299,CUST01005,2025-07-21,education,School Fees,2947,debit_card,School Fees - Education
+TXN00000297,CUST01005,2025-08-06,food_dining,Zomato,1357,debit_card,Zomato - Food Dining
+TXN00000306,CUST01005,2025-08-07,groceries,Big Bazaar,2582,credit_card,Big Bazaar - Groceries
+TXN00000277,CUST01005,2025-08-20,utilities,Electricity Bill,3341,credit_card,Electricity Bill - Utilities
+TXN00000274,CUST01005,2025-08-21,investment,Zerodha,72132,debit_card,Zerodha - Investment
+TXN00000255,CUST01005,2025-08-24,food_dining,Cafe Coffee Day,413,debit_card,Cafe Coffee Day - Food Dining
+TXN00000259,CUST01005,2025-08-26,food_dining,Swiggy,1236,debit_card,Swiggy - Food Dining
+TXN00000290,CUST01005,2025-08-27,utilities,Gas Bill,4238,debit_card,Gas Bill - Utilities
+TXN00000270,CUST01005,2025-08-28,education,Coursera,7117,debit_card,Coursera - Education
+TXN00000296,CUST01005,2025-08-29,entertainment,BookMyShow,4466,upi,BookMyShow - Entertainment
+TXN00000301,CUST01005,2025-08-29,groceries,More Supermarket,3423,upi,More Supermarket - Groceries
+TXN00000282,CUST01005,2025-08-30,utilities,Internet Bill,1646,debit_card,Internet Bill - Utilities
+TXN00000251,CUST01005,2025-09-04,investment,Zerodha,7007,credit_card,Zerodha - Investment
+TXN00000300,CUST01005,2025-09-04,travel,Ola,25667,netbanking,Ola - Travel
+TXN00000260,CUST01005,2025-09-05,travel,Goibibo,20694,upi,Goibibo - Travel
+TXN00000257,CUST01005,2025-09-06,utilities,Mobile Recharge,2971,credit_card,Mobile Recharge - Utilities
+TXN00000248,CUST01005,2025-09-11,travel,Goibibo,27503,credit_card,Goibibo - Travel
+TXN00000291,CUST01005,2025-09-17,groceries,DMart,6870,netbanking,DMart - Groceries
+TXN00000245,CUST01005,2025-09-19,shopping,Myntra,10811,upi,Myntra - Shopping
+TXN00000256,CUST01005,2025-09-20,fuel,Bharat Petroleum,5916,debit_card,Bharat Petroleum - Fuel
+TXN00000292,CUST01005,2025-09-23,fuel,HP Petrol,4213,debit_card,HP Petrol - Fuel
+TXN00000303,CUST01005,2025-09-23,utilities,Gas Bill,4442,debit_card,Gas Bill - Utilities
+TXN00000273,CUST01005,2025-09-24,travel,Uber,29885,credit_card,Uber - Travel
+TXN00000294,CUST01005,2025-10-01,travel,Ola,13447,upi,Ola - Travel
+TXN00000269,CUST01005,2025-10-02,food_dining,Starbucks,2091,credit_card,Starbucks - Food Dining
+TXN00000271,CUST01005,2025-10-02,shopping,Pantaloons,18763,netbanking,Pantaloons - Shopping
+TXN00000284,CUST01005,2025-10-03,shopping,Myntra,10720,credit_card,Myntra - Shopping
+TXN00000249,CUST01005,2025-10-04,food_dining,Starbucks,694,credit_card,Starbucks - Food Dining
+TXN00000298,CUST01005,2025-10-04,food_dining,Starbucks,615,upi,Starbucks - Food Dining
+TXN00000254,CUST01005,2025-10-09,utilities,Water Bill,5177,upi,Water Bill - Utilities
+TXN00000287,CUST01005,2025-10-11,education,Unacademy,3673,debit_card,Unacademy - Education
+TXN00000243,CUST01005,2025-10-17,utilities,Electricity Bill,1762,upi,Electricity Bill - Utilities
+TXN00000266,CUST01005,2025-10-17,utilities,Water Bill,3247,upi,Water Bill - Utilities
+TXN00000246,CUST01005,2025-10-18,entertainment,BookMyShow,1514,credit_card,BookMyShow - Entertainment
+TXN00000293,CUST01005,2025-10-19,investment,Mutual Fund SIP,42932,upi,Mutual Fund SIP - Investment
+TXN00000280,CUST01005,2025-10-22,utilities,Internet Bill,3141,netbanking,Internet Bill - Utilities
+TXN00000276,CUST01005,2025-10-29,food_dining,McDonald's,1398,credit_card,McDonald's - Food Dining
+TXN00000247,CUST01005,2025-10-31,food_dining,Swiggy,1354,debit_card,Swiggy - Food Dining
+TXN00000288,CUST01005,2025-10-31,food_dining,Starbucks,871,credit_card,Starbucks - Food Dining
+TXN00000265,CUST01005,2025-11-02,travel,IRCTC,29779,debit_card,IRCTC - Travel
+TXN00000267,CUST01005,2025-11-02,groceries,Reliance Fresh,2918,debit_card,Reliance Fresh - Groceries
+TXN00000268,CUST01005,2025-11-03,groceries,More Supermarket,11489,credit_card,More Supermarket - Groceries
+TXN00000263,CUST01005,2025-11-07,education,Udemy,7937,credit_card,Udemy - Education
+TXN00000302,CUST01005,2025-11-08,shopping,Flipkart,5108,credit_card,Flipkart - Shopping
+TXN00000279,CUST01005,2025-11-10,investment,Fixed Deposit,25709,credit_card,Fixed Deposit - Investment
+TXN00000250,CUST01005,2025-11-15,entertainment,PVR Cinemas,2766,credit_card,PVR Cinemas - Entertainment
+TXN00000283,CUST01005,2025-11-17,fuel,Indian Oil,6492,debit_card,Indian Oil - Fuel
+TXN00000289,CUST01005,2025-11-19,healthcare,Fortis Hospital,15301,credit_card,Fortis Hospital - Healthcare
+TXN00000281,CUST01005,2025-11-20,utilities,Gas Bill,1294,credit_card,Gas Bill - Utilities
+TXN00000308,CUST01006,2025-05-30,utilities,Water Bill,2581,upi,Water Bill - Utilities
+TXN00000319,CUST01006,2025-06-05,groceries,More Supermarket,10244,credit_card,More Supermarket - Groceries
+TXN00000328,CUST01006,2025-06-05,utilities,Internet Bill,4163,credit_card,Internet Bill - Utilities
+TXN00000376,CUST01006,2025-06-06,food_dining,Cafe Coffee Day,1604,upi,Cafe Coffee Day - Food Dining
+TXN00000321,CUST01006,2025-06-07,fuel,Bharat Petroleum,3438,credit_card,Bharat Petroleum - Fuel
+TXN00000368,CUST01006,2025-06-07,food_dining,Starbucks,2687,upi,Starbucks - Food Dining
+TXN00000384,CUST01006,2025-06-08,entertainment,Netflix,3354,credit_card,Netflix - Entertainment
+TXN00000329,CUST01006,2025-06-09,food_dining,Cafe Coffee Day,1903,credit_card,Cafe Coffee Day - Food Dining
+TXN00000348,CUST01006,2025-06-09,education,Unacademy,11228,credit_card,Unacademy - Education
+TXN00000311,CUST01006,2025-06-12,investment,Fixed Deposit,72496,upi,Fixed Deposit - Investment
+TXN00000314,CUST01006,2025-06-12,shopping,Amazon,19667,upi,Amazon - Shopping
+TXN00000334,CUST01006,2025-06-14,entertainment,PVR Cinemas,3246,credit_card,PVR Cinemas - Entertainment
+TXN00000325,CUST01006,2025-06-15,shopping,Flipkart,18474,credit_card,Flipkart - Shopping
+TXN00000344,CUST01006,2025-06-17,food_dining,Starbucks,2200,debit_card,Starbucks - Food Dining
+TXN00000374,CUST01006,2025-06-19,shopping,Myntra,18879,upi,Myntra - Shopping
+TXN00000326,CUST01006,2025-06-21,food_dining,Cafe Coffee Day,1450,credit_card,Cafe Coffee Day - Food Dining
+TXN00000362,CUST01006,2025-06-22,groceries,Reliance Fresh,3807,credit_card,Reliance Fresh - Groceries
+TXN00000370,CUST01006,2025-06-22,shopping,Myntra,12585,upi,Myntra - Shopping
+TXN00000381,CUST01006,2025-06-23,investment,Fixed Deposit,46327,upi,Fixed Deposit - Investment
+TXN00000375,CUST01006,2025-07-01,groceries,Spencer's,8376,debit_card,Spencer's - Groceries
+TXN00000333,CUST01006,2025-07-04,utilities,Internet Bill,3647,debit_card,Internet Bill - Utilities
+TXN00000359,CUST01006,2025-07-05,shopping,Westside,15818,credit_card,Westside - Shopping
+TXN00000349,CUST01006,2025-07-06,groceries,DMart,7469,upi,DMart - Groceries
+TXN00000342,CUST01006,2025-07-16,healthcare,Fortis Hospital,17148,credit_card,Fortis Hospital - Healthcare
+TXN00000363,CUST01006,2025-07-28,food_dining,Swiggy,1428,upi,Swiggy - Food Dining
+TXN00000337,CUST01006,2025-07-31,utilities,Gas Bill,2939,debit_card,Gas Bill - Utilities
+TXN00000309,CUST01006,2025-08-08,shopping,Pantaloons,12161,credit_card,Pantaloons - Shopping
+TXN00000379,CUST01006,2025-08-10,entertainment,PVR Cinemas,4415,debit_card,PVR Cinemas - Entertainment
+TXN00000365,CUST01006,2025-08-14,groceries,DMart,9963,netbanking,DMart - Groceries
+TXN00000315,CUST01006,2025-08-19,food_dining,McDonald's,2476,credit_card,McDonald's - Food Dining
+TXN00000361,CUST01006,2025-08-22,investment,Groww,54567,debit_card,Groww - Investment
+TXN00000372,CUST01006,2025-08-26,entertainment,BookMyShow,3404,debit_card,BookMyShow - Entertainment
+TXN00000371,CUST01006,2025-08-27,food_dining,Swiggy,2575,debit_card,Swiggy - Food Dining
+TXN00000322,CUST01006,2025-08-28,shopping,Westside,15009,upi,Westside - Shopping
+TXN00000324,CUST01006,2025-08-28,fuel,Bharat Petroleum,1876,upi,Bharat Petroleum - Fuel
+TXN00000323,CUST01006,2025-09-01,shopping,Flipkart,16859,debit_card,Flipkart - Shopping
+TXN00000313,CUST01006,2025-09-02,investment,Paytm Money,8128,credit_card,Paytm Money - Investment
+TXN00000367,CUST01006,2025-09-03,travel,Ola,14459,debit_card,Ola - Travel
+TXN00000345,CUST01006,2025-09-07,education,Coursera,9413,netbanking,Coursera - Education
+TXN00000310,CUST01006,2025-09-09,groceries,Big Bazaar,10376,netbanking,Big Bazaar - Groceries
+TXN00000386,CUST01006,2025-09-15,groceries,DMart,8565,debit_card,DMart - Groceries
+TXN00000339,CUST01006,2025-09-16,investment,Paytm Money,51537,upi,Paytm Money - Investment
+TXN00000318,CUST01006,2025-09-20,food_dining,Zomato,419,upi,Zomato - Food Dining
+TXN00000366,CUST01006,2025-09-22,travel,MakeMyTrip,32955,credit_card,MakeMyTrip - Travel
+TXN00000317,CUST01006,2025-09-25,utilities,Gas Bill,1116,upi,Gas Bill - Utilities
+TXN00000338,CUST01006,2025-09-28,groceries,DMart,3013,debit_card,DMart - Groceries
+TXN00000336,CUST01006,2025-09-30,travel,IRCTC,8077,credit_card,IRCTC - Travel
+TXN00000352,CUST01006,2025-10-01,utilities,Water Bill,1863,credit_card,Water Bill - Utilities
+TXN00000312,CUST01006,2025-10-02,entertainment,Spotify,4091,credit_card,Spotify - Entertainment
+TXN00000350,CUST01006,2025-10-05,fuel,Indian Oil,3252,credit_card,Indian Oil - Fuel
+TXN00000377,CUST01006,2025-10-05,travel,IRCTC,34144,credit_card,IRCTC - Travel
+TXN00000320,CUST01006,2025-10-12,travel,Uber,12884,credit_card,Uber - Travel
+TXN00000357,CUST01006,2025-10-12,groceries,More Supermarket,9712,credit_card,More Supermarket - Groceries
+TXN00000340,CUST01006,2025-10-13,entertainment,Prime Video,1530,upi,Prime Video - Entertainment
+TXN00000373,CUST01006,2025-10-13,groceries,Spencer's,11811,credit_card,Spencer's - Groceries
+TXN00000343,CUST01006,2025-10-14,entertainment,Spotify,1303,debit_card,Spotify - Entertainment
+TXN00000347,CUST01006,2025-10-14,utilities,Gas Bill,1657,debit_card,Gas Bill - Utilities
+TXN00000351,CUST01006,2025-10-14,groceries,More Supermarket,11866,debit_card,More Supermarket - Groceries
+TXN00000354,CUST01006,2025-10-17,food_dining,Swiggy,572,credit_card,Swiggy - Food Dining
+TXN00000380,CUST01006,2025-10-17,groceries,Big Bazaar,7835,credit_card,Big Bazaar - Groceries
+TXN00000356,CUST01006,2025-10-19,shopping,Amazon,16919,upi,Amazon - Shopping
+TXN00000327,CUST01006,2025-10-27,utilities,Gas Bill,4236,credit_card,Gas Bill - Utilities
+TXN00000360,CUST01006,2025-10-28,food_dining,Cafe Coffee Day,1547,upi,Cafe Coffee Day - Food Dining
+TXN00000378,CUST01006,2025-10-29,groceries,Reliance Fresh,11900,upi,Reliance Fresh - Groceries
+TXN00000364,CUST01006,2025-10-30,shopping,Flipkart,11329,upi,Flipkart - Shopping
+TXN00000307,CUST01006,2025-11-01,travel,Uber,33116,debit_card,Uber - Travel
+TXN00000353,CUST01006,2025-11-01,utilities,Water Bill,3365,upi,Water Bill - Utilities
+TXN00000316,CUST01006,2025-11-06,food_dining,Cafe Coffee Day,2143,netbanking,Cafe Coffee Day - Food Dining
+TXN00000346,CUST01006,2025-11-06,food_dining,Starbucks,2359,credit_card,Starbucks - Food Dining
+TXN00000355,CUST01006,2025-11-06,healthcare,Max Healthcare,22296,credit_card,Max Healthcare - Healthcare
+TXN00000332,CUST01006,2025-11-07,shopping,Westside,19187,credit_card,Westside - Shopping
+TXN00000335,CUST01006,2025-11-08,groceries,Big Bazaar,2224,upi,Big Bazaar - Groceries
+TXN00000369,CUST01006,2025-11-09,utilities,Internet Bill,4996,credit_card,Internet Bill - Utilities
+TXN00000383,CUST01006,2025-11-09,healthcare,PharmEasy,19887,credit_card,PharmEasy - Healthcare
+TXN00000330,CUST01006,2025-11-15,food_dining,Swiggy,824,upi,Swiggy - Food Dining
+TXN00000331,CUST01006,2025-11-15,healthcare,Apollo Pharmacy,5096,credit_card,Apollo Pharmacy - Healthcare
+TXN00000385,CUST01006,2025-11-16,groceries,Spencer's,3600,credit_card,Spencer's - Groceries
+TXN00000358,CUST01006,2025-11-17,shopping,Westside,2991,debit_card,Westside - Shopping
+TXN00000382,CUST01006,2025-11-18,utilities,Water Bill,4487,credit_card,Water Bill - Utilities
+TXN00000341,CUST01006,2025-11-21,utilities,Internet Bill,4767,credit_card,Internet Bill - Utilities
+TXN00000417,CUST01007,2025-05-28,groceries,More Supermarket,7175,credit_card,More Supermarket - Groceries
+TXN00000401,CUST01007,2025-06-08,food_dining,McDonald's,1669,debit_card,McDonald's - Food Dining
+TXN00000388,CUST01007,2025-06-10,utilities,Water Bill,1349,debit_card,Water Bill - Utilities
+TXN00000432,CUST01007,2025-06-11,travel,Uber,2561,netbanking,Uber - Travel
+TXN00000397,CUST01007,2025-06-15,shopping,Westside,11247,credit_card,Westside - Shopping
+TXN00000425,CUST01007,2025-06-23,food_dining,Domino's,1235,credit_card,Domino's - Food Dining
+TXN00000427,CUST01007,2025-06-24,utilities,Water Bill,2502,credit_card,Water Bill - Utilities
+TXN00000437,CUST01007,2025-06-25,food_dining,Domino's,1004,debit_card,Domino's - Food Dining
+TXN00000395,CUST01007,2025-06-26,entertainment,PVR Cinemas,1755,upi,PVR Cinemas - Entertainment
+TXN00000403,CUST01007,2025-07-05,shopping,Westside,8322,debit_card,Westside - Shopping
+TXN00000406,CUST01007,2025-07-10,fuel,Indian Oil,4425,credit_card,Indian Oil - Fuel
+TXN00000423,CUST01007,2025-07-20,healthcare,PharmEasy,13700,credit_card,PharmEasy - Healthcare
+TXN00000431,CUST01007,2025-07-20,entertainment,BookMyShow,1935,credit_card,BookMyShow - Entertainment
+TXN00000438,CUST01007,2025-07-22,education,Coursera,10776,debit_card,Coursera - Education
+TXN00000400,CUST01007,2025-07-26,groceries,Spencer's,3348,debit_card,Spencer's - Groceries
+TXN00000392,CUST01007,2025-07-28,groceries,More Supermarket,3342,upi,More Supermarket - Groceries
+TXN00000415,CUST01007,2025-07-28,food_dining,Starbucks,682,debit_card,Starbucks - Food Dining
+TXN00000416,CUST01007,2025-08-02,investment,Paytm Money,43172,upi,Paytm Money - Investment
+TXN00000404,CUST01007,2025-08-07,groceries,Big Bazaar,7797,credit_card,Big Bazaar - Groceries
+TXN00000412,CUST01007,2025-08-09,entertainment,Netflix,918,debit_card,Netflix - Entertainment
+TXN00000420,CUST01007,2025-08-09,shopping,Flipkart,4090,netbanking,Flipkart - Shopping
+TXN00000393,CUST01007,2025-08-10,healthcare,Fortis Hospital,12108,upi,Fortis Hospital - Healthcare
+TXN00000430,CUST01007,2025-08-12,utilities,Mobile Recharge,1542,upi,Mobile Recharge - Utilities
+TXN00000394,CUST01007,2025-08-15,travel,IRCTC,23947,credit_card,IRCTC - Travel
+TXN00000435,CUST01007,2025-08-31,travel,Goibibo,12609,credit_card,Goibibo - Travel
+TXN00000396,CUST01007,2025-09-04,education,Udemy,10517,credit_card,Udemy - Education
+TXN00000414,CUST01007,2025-09-05,utilities,Gas Bill,1075,debit_card,Gas Bill - Utilities
+TXN00000429,CUST01007,2025-09-09,travel,Uber,18610,debit_card,Uber - Travel
+TXN00000424,CUST01007,2025-09-17,travel,MakeMyTrip,2859,upi,MakeMyTrip - Travel
+TXN00000390,CUST01007,2025-09-20,fuel,Bharat Petroleum,3237,credit_card,Bharat Petroleum - Fuel
+TXN00000411,CUST01007,2025-09-20,utilities,Gas Bill,557,upi,Gas Bill - Utilities
+TXN00000410,CUST01007,2025-09-22,groceries,Big Bazaar,4208,credit_card,Big Bazaar - Groceries
+TXN00000433,CUST01007,2025-09-23,food_dining,Starbucks,568,upi,Starbucks - Food Dining
+TXN00000398,CUST01007,2025-09-25,groceries,Spencer's,3721,upi,Spencer's - Groceries
+TXN00000421,CUST01007,2025-09-25,food_dining,Cafe Coffee Day,1440,credit_card,Cafe Coffee Day - Food Dining
+TXN00000407,CUST01007,2025-09-29,groceries,More Supermarket,1806,credit_card,More Supermarket - Groceries
+TXN00000387,CUST01007,2025-10-01,healthcare,Medlife,14699,upi,Medlife - Healthcare
+TXN00000419,CUST01007,2025-10-01,fuel,Bharat Petroleum,3827,credit_card,Bharat Petroleum - Fuel
+TXN00000428,CUST01007,2025-10-03,shopping,Amazon,7929,credit_card,Amazon - Shopping
+TXN00000426,CUST01007,2025-10-10,food_dining,McDonald's,1949,debit_card,McDonald's - Food Dining
+TXN00000439,CUST01007,2025-10-12,shopping,Westside,13989,credit_card,Westside - Shopping
+TXN00000408,CUST01007,2025-10-18,entertainment,Prime Video,1365,debit_card,Prime Video - Entertainment
+TXN00000405,CUST01007,2025-10-19,groceries,Big Bazaar,2934,debit_card,Big Bazaar - Groceries
+TXN00000413,CUST01007,2025-11-05,fuel,Shell,3110,credit_card,Shell - Fuel
+TXN00000409,CUST01007,2025-11-06,entertainment,Spotify,749,upi,Spotify - Entertainment
+TXN00000434,CUST01007,2025-11-06,investment,Mutual Fund SIP,29540,netbanking,Mutual Fund SIP - Investment
+TXN00000389,CUST01007,2025-11-11,travel,Goibibo,10581,netbanking,Goibibo - Travel
+TXN00000436,CUST01007,2025-11-11,fuel,HP Petrol,3676,upi,HP Petrol - Fuel
+TXN00000418,CUST01007,2025-11-12,food_dining,McDonald's,527,debit_card,McDonald's - Food Dining
+TXN00000391,CUST01007,2025-11-16,utilities,Internet Bill,2998,debit_card,Internet Bill - Utilities
+TXN00000402,CUST01007,2025-11-16,healthcare,Apollo Pharmacy,9816,netbanking,Apollo Pharmacy - Healthcare
+TXN00000399,CUST01007,2025-11-20,groceries,Big Bazaar,6543,upi,Big Bazaar - Groceries
+TXN00000422,CUST01007,2025-11-21,entertainment,Spotify,2401,upi,Spotify - Entertainment
+TXN00000442,CUST01008,2025-05-30,groceries,Big Bazaar,2326,debit_card,Big Bazaar - Groceries
+TXN00000445,CUST01008,2025-06-09,food_dining,McDonald's,679,upi,McDonald's - Food Dining
+TXN00000472,CUST01008,2025-06-14,investment,Zerodha,5418,debit_card,Zerodha - Investment
+TXN00000456,CUST01008,2025-06-18,travel,Ola,1988,credit_card,Ola - Travel
+TXN00000441,CUST01008,2025-06-23,food_dining,Cafe Coffee Day,1058,debit_card,Cafe Coffee Day - Food Dining
+TXN00000460,CUST01008,2025-06-25,healthcare,Medlife,4774,debit_card,Medlife - Healthcare
+TXN00000453,CUST01008,2025-07-01,education,Coursera,19428,debit_card,Coursera - Education
+TXN00000449,CUST01008,2025-07-09,utilities,Mobile Recharge,2776,debit_card,Mobile Recharge - Utilities
+TXN00000455,CUST01008,2025-07-17,shopping,Amazon,7869,upi,Amazon - Shopping
+TXN00000468,CUST01008,2025-07-27,travel,IndiGo Airlines,22741,credit_card,IndiGo Airlines - Travel
+TXN00000463,CUST01008,2025-07-31,shopping,Westside,8135,credit_card,Westside - Shopping
+TXN00000466,CUST01008,2025-07-31,entertainment,PVR Cinemas,2572,upi,PVR Cinemas - Entertainment
+TXN00000462,CUST01008,2025-08-06,shopping,Pantaloons,11128,credit_card,Pantaloons - Shopping
+TXN00000467,CUST01008,2025-08-09,food_dining,McDonald's,671,credit_card,McDonald's - Food Dining
+TXN00000447,CUST01008,2025-08-16,groceries,DMart,6908,debit_card,DMart - Groceries
+TXN00000459,CUST01008,2025-08-19,groceries,Big Bazaar,3235,upi,Big Bazaar - Groceries
+TXN00000440,CUST01008,2025-08-22,food_dining,Zomato,1992,upi,Zomato - Food Dining
+TXN00000450,CUST01008,2025-08-22,investment,Mutual Fund SIP,39371,credit_card,Mutual Fund SIP - Investment
+TXN00000470,CUST01008,2025-08-24,food_dining,Cafe Coffee Day,1319,debit_card,Cafe Coffee Day - Food Dining
+TXN00000444,CUST01008,2025-09-05,shopping,Pantaloons,4059,upi,Pantaloons - Shopping
+TXN00000448,CUST01008,2025-09-08,groceries,Big Bazaar,6060,upi,Big Bazaar - Groceries
+TXN00000465,CUST01008,2025-09-08,food_dining,Zomato,1718,credit_card,Zomato - Food Dining
+TXN00000451,CUST01008,2025-09-09,shopping,Myntra,6667,credit_card,Myntra - Shopping
+TXN00000454,CUST01008,2025-09-09,entertainment,Netflix,1790,credit_card,Netflix - Entertainment
+TXN00000443,CUST01008,2025-09-17,entertainment,BookMyShow,1202,upi,BookMyShow - Entertainment
+TXN00000474,CUST01008,2025-09-19,shopping,Pantaloons,10948,debit_card,Pantaloons - Shopping
+TXN00000464,CUST01008,2025-09-23,healthcare,Max Healthcare,4128,credit_card,Max Healthcare - Healthcare
+TXN00000469,CUST01008,2025-09-28,investment,Mutual Fund SIP,35200,credit_card,Mutual Fund SIP - Investment
+TXN00000452,CUST01008,2025-10-10,travel,Ola,10154,upi,Ola - Travel
+TXN00000477,CUST01008,2025-10-10,investment,Zerodha,37913,upi,Zerodha - Investment
+TXN00000471,CUST01008,2025-10-11,investment,Zerodha,39337,credit_card,Zerodha - Investment
+TXN00000476,CUST01008,2025-10-14,shopping,Amazon,9173,upi,Amazon - Shopping
+TXN00000446,CUST01008,2025-10-20,groceries,Spencer's,7828,debit_card,Spencer's - Groceries
+TXN00000458,CUST01008,2025-10-23,utilities,Water Bill,1388,debit_card,Water Bill - Utilities
+TXN00000475,CUST01008,2025-10-30,fuel,Shell,1064,credit_card,Shell - Fuel
+TXN00000473,CUST01008,2025-11-03,groceries,DMart,1574,credit_card,DMart - Groceries
+TXN00000457,CUST01008,2025-11-14,entertainment,BookMyShow,498,credit_card,BookMyShow - Entertainment
+TXN00000478,CUST01008,2025-11-14,shopping,Flipkart,2253,upi,Flipkart - Shopping
+TXN00000461,CUST01008,2025-11-22,groceries,DMart,6022,credit_card,DMart - Groceries
+TXN00000504,CUST01009,2025-05-29,groceries,Reliance Fresh,3187,upi,Reliance Fresh - Groceries
+TXN00000529,CUST01009,2025-06-01,travel,MakeMyTrip,27621,upi,MakeMyTrip - Travel
+TXN00000488,CUST01009,2025-06-03,food_dining,McDonald's,304,netbanking,McDonald's - Food Dining
+TXN00000498,CUST01009,2025-06-13,food_dining,Zomato,1796,upi,Zomato - Food Dining
+TXN00000487,CUST01009,2025-06-14,utilities,Internet Bill,5048,debit_card,Internet Bill - Utilities
+TXN00000482,CUST01009,2025-06-15,utilities,Electricity Bill,1365,debit_card,Electricity Bill - Utilities
+TXN00000484,CUST01009,2025-06-16,travel,Goibibo,22070,debit_card,Goibibo - Travel
+TXN00000530,CUST01009,2025-06-16,food_dining,Cafe Coffee Day,820,credit_card,Cafe Coffee Day - Food Dining
+TXN00000500,CUST01009,2025-06-18,food_dining,McDonald's,2061,credit_card,McDonald's - Food Dining
+TXN00000485,CUST01009,2025-06-19,fuel,Indian Oil,3082,credit_card,Indian Oil - Fuel
+TXN00000510,CUST01009,2025-06-29,groceries,Reliance Fresh,7243,upi,Reliance Fresh - Groceries
+TXN00000492,CUST01009,2025-06-30,healthcare,Apollo Pharmacy,17369,upi,Apollo Pharmacy - Healthcare
+TXN00000479,CUST01009,2025-07-03,groceries,Spencer's,10425,credit_card,Spencer's - Groceries
+TXN00000518,CUST01009,2025-07-18,shopping,Myntra,2866,upi,Myntra - Shopping
+TXN00000554,CUST01009,2025-07-22,travel,Ola,30331,debit_card,Ola - Travel
+TXN00000536,CUST01009,2025-07-24,education,Udemy,13415,debit_card,Udemy - Education
+TXN00000509,CUST01009,2025-07-28,utilities,Mobile Recharge,2201,debit_card,Mobile Recharge - Utilities
+TXN00000541,CUST01009,2025-08-01,utilities,Mobile Recharge,4923,netbanking,Mobile Recharge - Utilities
+TXN00000501,CUST01009,2025-08-03,food_dining,Swiggy,1007,debit_card,Swiggy - Food Dining
+TXN00000549,CUST01009,2025-08-07,food_dining,McDonald's,2087,debit_card,McDonald's - Food Dining
+TXN00000490,CUST01009,2025-08-10,food_dining,Zomato,2561,upi,Zomato - Food Dining
+TXN00000508,CUST01009,2025-08-10,travel,Uber,24026,credit_card,Uber - Travel
+TXN00000533,CUST01009,2025-08-10,food_dining,Cafe Coffee Day,711,credit_card,Cafe Coffee Day - Food Dining
+TXN00000542,CUST01009,2025-08-14,entertainment,PVR Cinemas,3455,debit_card,PVR Cinemas - Entertainment
+TXN00000545,CUST01009,2025-08-14,food_dining,McDonald's,719,credit_card,McDonald's - Food Dining
+TXN00000514,CUST01009,2025-08-15,groceries,Reliance Fresh,11235,upi,Reliance Fresh - Groceries
+TXN00000495,CUST01009,2025-08-17,food_dining,McDonald's,2085,debit_card,McDonald's - Food Dining
+TXN00000515,CUST01009,2025-08-17,shopping,Westside,12560,credit_card,Westside - Shopping
+TXN00000494,CUST01009,2025-08-21,entertainment,PVR Cinemas,3489,netbanking,PVR Cinemas - Entertainment
+TXN00000531,CUST01009,2025-08-21,travel,Ola,34511,debit_card,Ola - Travel
+TXN00000534,CUST01009,2025-08-21,utilities,Gas Bill,2598,debit_card,Gas Bill - Utilities
+TXN00000493,CUST01009,2025-08-22,food_dining,Starbucks,1190,upi,Starbucks - Food Dining
+TXN00000543,CUST01009,2025-08-23,shopping,Westside,20829,credit_card,Westside - Shopping
+TXN00000480,CUST01009,2025-08-24,groceries,Reliance Fresh,3094,credit_card,Reliance Fresh - Groceries
+TXN00000503,CUST01009,2025-08-24,entertainment,PVR Cinemas,2897,upi,PVR Cinemas - Entertainment
+TXN00000496,CUST01009,2025-08-25,entertainment,Spotify,3777,credit_card,Spotify - Entertainment
+TXN00000550,CUST01009,2025-08-25,investment,Mutual Fund SIP,23895,credit_card,Mutual Fund SIP - Investment
+TXN00000483,CUST01009,2025-08-30,entertainment,BookMyShow,317,upi,BookMyShow - Entertainment
+TXN00000511,CUST01009,2025-08-31,education,School Fees,30050,credit_card,School Fees - Education
+TXN00000551,CUST01009,2025-09-01,investment,Fixed Deposit,70876,debit_card,Fixed Deposit - Investment
+TXN00000491,CUST01009,2025-09-02,utilities,Water Bill,3317,credit_card,Water Bill - Utilities
+TXN00000528,CUST01009,2025-09-03,travel,IndiGo Airlines,33158,credit_card,IndiGo Airlines - Travel
+TXN00000481,CUST01009,2025-09-06,travel,Ola,15161,credit_card,Ola - Travel
+TXN00000519,CUST01009,2025-09-07,utilities,Gas Bill,3080,credit_card,Gas Bill - Utilities
+TXN00000538,CUST01009,2025-09-12,shopping,Flipkart,7343,credit_card,Flipkart - Shopping
+TXN00000526,CUST01009,2025-09-13,food_dining,Swiggy,1299,credit_card,Swiggy - Food Dining
+TXN00000537,CUST01009,2025-09-13,shopping,Pantaloons,7065,debit_card,Pantaloons - Shopping
+TXN00000532,CUST01009,2025-09-24,food_dining,Cafe Coffee Day,2093,credit_card,Cafe Coffee Day - Food Dining
+TXN00000552,CUST01009,2025-09-28,shopping,Westside,16613,credit_card,Westside - Shopping
+TXN00000507,CUST01009,2025-09-29,food_dining,Zomato,2020,credit_card,Zomato - Food Dining
+TXN00000527,CUST01009,2025-10-05,entertainment,PVR Cinemas,2050,debit_card,PVR Cinemas - Entertainment
+TXN00000523,CUST01009,2025-10-10,entertainment,BookMyShow,1135,upi,BookMyShow - Entertainment
+TXN00000540,CUST01009,2025-10-10,groceries,More Supermarket,5028,debit_card,More Supermarket - Groceries
+TXN00000517,CUST01009,2025-10-13,food_dining,Cafe Coffee Day,2130,upi,Cafe Coffee Day - Food Dining
+TXN00000535,CUST01009,2025-10-14,food_dining,Domino's,1986,netbanking,Domino's - Food Dining
+TXN00000502,CUST01009,2025-10-15,entertainment,Spotify,1086,credit_card,Spotify - Entertainment
+TXN00000505,CUST01009,2025-10-16,fuel,HP Petrol,5885,debit_card,HP Petrol - Fuel
+TXN00000516,CUST01009,2025-10-17,groceries,Spencer's,4747,debit_card,Spencer's - Groceries
+TXN00000553,CUST01009,2025-10-17,food_dining,Zomato,1436,credit_card,Zomato - Food Dining
+TXN00000547,CUST01009,2025-10-20,shopping,Flipkart,16547,debit_card,Flipkart - Shopping
+TXN00000497,CUST01009,2025-10-22,utilities,Electricity Bill,3019,upi,Electricity Bill - Utilities
+TXN00000489,CUST01009,2025-10-23,food_dining,Cafe Coffee Day,1871,upi,Cafe Coffee Day - Food Dining
+TXN00000521,CUST01009,2025-10-26,travel,Goibibo,35380,debit_card,Goibibo - Travel
+TXN00000499,CUST01009,2025-11-04,food_dining,Starbucks,1537,credit_card,Starbucks - Food Dining
+TXN00000525,CUST01009,2025-11-07,utilities,Mobile Recharge,3316,netbanking,Mobile Recharge - Utilities
+TXN00000512,CUST01009,2025-11-08,investment,Groww,45378,credit_card,Groww - Investment
+TXN00000520,CUST01009,2025-11-10,food_dining,Starbucks,1784,credit_card,Starbucks - Food Dining
+TXN00000524,CUST01009,2025-11-10,utilities,Gas Bill,962,debit_card,Gas Bill - Utilities
+TXN00000544,CUST01009,2025-11-14,utilities,Internet Bill,1294,debit_card,Internet Bill - Utilities
+TXN00000506,CUST01009,2025-11-17,shopping,Flipkart,9411,credit_card,Flipkart - Shopping
+TXN00000486,CUST01009,2025-11-19,fuel,Shell,3420,credit_card,Shell - Fuel
+TXN00000513,CUST01009,2025-11-19,groceries,More Supermarket,4710,netbanking,More Supermarket - Groceries
+TXN00000522,CUST01009,2025-11-19,shopping,Amazon,12381,upi,Amazon - Shopping
+TXN00000546,CUST01009,2025-11-19,food_dining,Starbucks,1953,debit_card,Starbucks - Food Dining
+TXN00000548,CUST01009,2025-11-19,fuel,HP Petrol,5745,credit_card,HP Petrol - Fuel
+TXN00000539,CUST01009,2025-11-22,education,Coursera,7868,upi,Coursera - Education
+TXN00000588,CUST01010,2025-05-28,entertainment,Netflix,2002,credit_card,Netflix - Entertainment
+TXN00000598,CUST01010,2025-05-29,investment,Paytm Money,13649,credit_card,Paytm Money - Investment
+TXN00000601,CUST01010,2025-05-29,groceries,Big Bazaar,1995,upi,Big Bazaar - Groceries
+TXN00000618,CUST01010,2025-05-29,groceries,Reliance Fresh,4481,credit_card,Reliance Fresh - Groceries
+TXN00000559,CUST01010,2025-06-03,travel,MakeMyTrip,3150,debit_card,MakeMyTrip - Travel
+TXN00000557,CUST01010,2025-06-05,healthcare,Medlife,9751,credit_card,Medlife - Healthcare
+TXN00000596,CUST01010,2025-06-08,healthcare,Fortis Hospital,8908,credit_card,Fortis Hospital - Healthcare
+TXN00000615,CUST01010,2025-06-09,travel,IRCTC,5768,credit_card,IRCTC - Travel
+TXN00000563,CUST01010,2025-06-10,entertainment,PVR Cinemas,1351,debit_card,PVR Cinemas - Entertainment
+TXN00000585,CUST01010,2025-06-13,groceries,Big Bazaar,7486,upi,Big Bazaar - Groceries
+TXN00000586,CUST01010,2025-06-21,groceries,More Supermarket,2623,credit_card,More Supermarket - Groceries
+TXN00000560,CUST01010,2025-06-25,healthcare,Fortis Hospital,4238,upi,Fortis Hospital - Healthcare
+TXN00000591,CUST01010,2025-06-26,entertainment,Spotify,1639,netbanking,Spotify - Entertainment
+TXN00000587,CUST01010,2025-06-29,utilities,Gas Bill,780,debit_card,Gas Bill - Utilities
+TXN00000610,CUST01010,2025-07-06,travel,MakeMyTrip,17437,debit_card,MakeMyTrip - Travel
+TXN00000564,CUST01010,2025-07-08,groceries,More Supermarket,3870,debit_card,More Supermarket - Groceries
+TXN00000609,CUST01010,2025-07-09,food_dining,Cafe Coffee Day,481,upi,Cafe Coffee Day - Food Dining
+TXN00000589,CUST01010,2025-07-19,utilities,Gas Bill,2186,debit_card,Gas Bill - Utilities
+TXN00000574,CUST01010,2025-07-20,investment,Groww,37421,credit_card,Groww - Investment
+TXN00000617,CUST01010,2025-07-23,healthcare,Apollo Pharmacy,1521,upi,Apollo Pharmacy - Healthcare
+TXN00000597,CUST01010,2025-07-26,travel,IRCTC,2626,debit_card,IRCTC - Travel
+TXN00000607,CUST01010,2025-07-26,food_dining,Swiggy,1089,credit_card,Swiggy - Food Dining
+TXN00000568,CUST01010,2025-07-28,healthcare,Medlife,8819,credit_card,Medlife - Healthcare
+TXN00000593,CUST01010,2025-07-28,entertainment,PVR Cinemas,2688,credit_card,PVR Cinemas - Entertainment
+TXN00000616,CUST01010,2025-07-30,healthcare,PharmEasy,11844,upi,PharmEasy - Healthcare
+TXN00000611,CUST01010,2025-07-31,food_dining,Zomato,1735,upi,Zomato - Food Dining
+TXN00000612,CUST01010,2025-08-02,utilities,Electricity Bill,620,credit_card,Electricity Bill - Utilities
+TXN00000579,CUST01010,2025-08-04,food_dining,McDonald's,712,credit_card,McDonald's - Food Dining
+TXN00000571,CUST01010,2025-08-05,utilities,Internet Bill,2362,netbanking,Internet Bill - Utilities
+TXN00000575,CUST01010,2025-08-06,shopping,Pantaloons,2639,debit_card,Pantaloons - Shopping
+TXN00000581,CUST01010,2025-08-12,utilities,Gas Bill,2258,debit_card,Gas Bill - Utilities
+TXN00000592,CUST01010,2025-08-14,healthcare,Fortis Hospital,5337,debit_card,Fortis Hospital - Healthcare
+TXN00000572,CUST01010,2025-08-17,entertainment,BookMyShow,2077,debit_card,BookMyShow - Entertainment
+TXN00000584,CUST01010,2025-08-21,education,Byju's,23742,credit_card,Byju's - Education
+TXN00000602,CUST01010,2025-09-04,travel,IndiGo Airlines,23651,debit_card,IndiGo Airlines - Travel
+TXN00000566,CUST01010,2025-09-08,fuel,Bharat Petroleum,4551,debit_card,Bharat Petroleum - Fuel
+TXN00000603,CUST01010,2025-09-09,shopping,Westside,1850,debit_card,Westside - Shopping
+TXN00000558,CUST01010,2025-09-11,food_dining,Cafe Coffee Day,1738,credit_card,Cafe Coffee Day - Food Dining
+TXN00000578,CUST01010,2025-09-12,groceries,DMart,6824,credit_card,DMart - Groceries
+TXN00000613,CUST01010,2025-09-12,groceries,Big Bazaar,3654,upi,Big Bazaar - Groceries
+TXN00000590,CUST01010,2025-09-16,fuel,Indian Oil,4672,credit_card,Indian Oil - Fuel
+TXN00000577,CUST01010,2025-09-20,food_dining,Zomato,1103,debit_card,Zomato - Food Dining
+TXN00000600,CUST01010,2025-09-23,investment,Zerodha,6093,debit_card,Zerodha - Investment
+TXN00000576,CUST01010,2025-09-27,healthcare,Apollo Pharmacy,1552,credit_card,Apollo Pharmacy - Healthcare
+TXN00000555,CUST01010,2025-09-29,entertainment,BookMyShow,2545,credit_card,BookMyShow - Entertainment
+TXN00000605,CUST01010,2025-10-03,fuel,HP Petrol,3197,credit_card,HP Petrol - Fuel
+TXN00000565,CUST01010,2025-10-04,investment,Zerodha,13885,netbanking,Zerodha - Investment
+TXN00000595,CUST01010,2025-10-05,entertainment,Netflix,1804,credit_card,Netflix - Entertainment
+TXN00000604,CUST01010,2025-10-10,utilities,Internet Bill,842,credit_card,Internet Bill - Utilities
+TXN00000556,CUST01010,2025-10-12,education,School Fees,18761,upi,School Fees - Education
+TXN00000599,CUST01010,2025-10-18,shopping,Pantaloons,11689,credit_card,Pantaloons - Shopping
+TXN00000614,CUST01010,2025-10-20,utilities,Mobile Recharge,2364,debit_card,Mobile Recharge - Utilities
+TXN00000561,CUST01010,2025-10-23,utilities,Water Bill,3091,debit_card,Water Bill - Utilities
+TXN00000606,CUST01010,2025-10-23,utilities,Electricity Bill,1770,debit_card,Electricity Bill - Utilities
+TXN00000583,CUST01010,2025-10-24,groceries,Reliance Fresh,1576,credit_card,Reliance Fresh - Groceries
+TXN00000608,CUST01010,2025-10-29,entertainment,Prime Video,2928,upi,Prime Video - Entertainment
+TXN00000562,CUST01010,2025-10-30,food_dining,Zomato,1866,credit_card,Zomato - Food Dining
+TXN00000569,CUST01010,2025-11-03,groceries,Reliance Fresh,4573,debit_card,Reliance Fresh - Groceries
+TXN00000570,CUST01010,2025-11-04,healthcare,Apollo Pharmacy,7400,debit_card,Apollo Pharmacy - Healthcare
+TXN00000580,CUST01010,2025-11-12,fuel,HP Petrol,1212,credit_card,HP Petrol - Fuel
+TXN00000594,CUST01010,2025-11-18,food_dining,Cafe Coffee Day,1993,credit_card,Cafe Coffee Day - Food Dining
+TXN00000573,CUST01010,2025-11-20,shopping,Amazon,13536,debit_card,Amazon - Shopping
+TXN00000567,CUST01010,2025-11-21,fuel,HP Petrol,1599,upi,HP Petrol - Fuel
+TXN00000582,CUST01010,2025-11-22,food_dining,Zomato,1176,credit_card,Zomato - Food Dining
+TXN00000678,CUST01011,2025-05-26,investment,Fixed Deposit,57327,upi,Fixed Deposit - Investment
+TXN00000669,CUST01011,2025-05-31,travel,Uber,22100,upi,Uber - Travel
+TXN00000663,CUST01011,2025-06-09,healthcare,Fortis Hospital,19824,upi,Fortis Hospital - Healthcare
+TXN00000635,CUST01011,2025-06-10,shopping,Flipkart,8358,credit_card,Flipkart - Shopping
+TXN00000649,CUST01011,2025-06-14,food_dining,Swiggy,1049,upi,Swiggy - Food Dining
+TXN00000632,CUST01011,2025-06-18,food_dining,Zomato,2368,debit_card,Zomato - Food Dining
+TXN00000662,CUST01011,2025-06-20,groceries,DMart,6166,debit_card,DMart - Groceries
+TXN00000647,CUST01011,2025-06-30,food_dining,Swiggy,1150,credit_card,Swiggy - Food Dining
+TXN00000672,CUST01011,2025-07-01,healthcare,PharmEasy,12916,netbanking,PharmEasy - Healthcare
+TXN00000681,CUST01011,2025-07-01,shopping,Amazon,8398,credit_card,Amazon - Shopping
+TXN00000654,CUST01011,2025-07-03,food_dining,Domino's,2767,credit_card,Domino's - Food Dining
+TXN00000639,CUST01011,2025-07-07,travel,MakeMyTrip,27001,credit_card,MakeMyTrip - Travel
+TXN00000645,CUST01011,2025-07-09,food_dining,Starbucks,2092,debit_card,Starbucks - Food Dining
+TXN00000619,CUST01011,2025-07-10,fuel,Indian Oil,5729,upi,Indian Oil - Fuel
+TXN00000667,CUST01011,2025-07-13,education,Byju's,36728,credit_card,Byju's - Education
+TXN00000638,CUST01011,2025-07-16,food_dining,Domino's,686,credit_card,Domino's - Food Dining
+TXN00000670,CUST01011,2025-07-16,education,School Fees,12830,upi,School Fees - Education
+TXN00000653,CUST01011,2025-07-19,fuel,Bharat Petroleum,3492,debit_card,Bharat Petroleum - Fuel
+TXN00000631,CUST01011,2025-07-25,shopping,Amazon,5265,upi,Amazon - Shopping
+TXN00000641,CUST01011,2025-08-01,fuel,Indian Oil,2491,upi,Indian Oil - Fuel
+TXN00000656,CUST01011,2025-08-05,shopping,Westside,7135,debit_card,Westside - Shopping
+TXN00000624,CUST01011,2025-08-06,healthcare,Max Healthcare,11684,credit_card,Max Healthcare - Healthcare
+TXN00000655,CUST01011,2025-08-09,travel,IRCTC,31753,credit_card,IRCTC - Travel
+TXN00000626,CUST01011,2025-08-11,healthcare,Fortis Hospital,16161,credit_card,Fortis Hospital - Healthcare
+TXN00000642,CUST01011,2025-08-11,education,Unacademy,3843,credit_card,Unacademy - Education
+TXN00000636,CUST01011,2025-08-14,fuel,Shell,6940,upi,Shell - Fuel
+TXN00000621,CUST01011,2025-08-15,groceries,Big Bazaar,11164,credit_card,Big Bazaar - Groceries
+TXN00000665,CUST01011,2025-08-15,education,School Fees,3048,upi,School Fees - Education
+TXN00000682,CUST01011,2025-08-15,food_dining,Swiggy,2984,debit_card,Swiggy - Food Dining
+TXN00000671,CUST01011,2025-08-16,food_dining,Zomato,2642,upi,Zomato - Food Dining
+TXN00000674,CUST01011,2025-08-16,food_dining,Zomato,2029,upi,Zomato - Food Dining
+TXN00000637,CUST01011,2025-08-17,groceries,More Supermarket,5627,credit_card,More Supermarket - Groceries
+TXN00000643,CUST01011,2025-08-17,food_dining,Cafe Coffee Day,1256,netbanking,Cafe Coffee Day - Food Dining
+TXN00000666,CUST01011,2025-08-24,investment,Fixed Deposit,24625,debit_card,Fixed Deposit - Investment
+TXN00000640,CUST01011,2025-08-25,investment,Groww,65233,credit_card,Groww - Investment
+TXN00000658,CUST01011,2025-08-25,travel,Goibibo,22906,upi,Goibibo - Travel
+TXN00000633,CUST01011,2025-08-29,travel,IndiGo Airlines,5924,debit_card,IndiGo Airlines - Travel
+TXN00000673,CUST01011,2025-08-29,utilities,Mobile Recharge,1427,credit_card,Mobile Recharge - Utilities
+TXN00000630,CUST01011,2025-08-30,fuel,Bharat Petroleum,2051,credit_card,Bharat Petroleum - Fuel
+TXN00000677,CUST01011,2025-08-30,groceries,More Supermarket,3886,credit_card,More Supermarket - Groceries
+TXN00000664,CUST01011,2025-09-02,shopping,Flipkart,6370,credit_card,Flipkart - Shopping
+TXN00000644,CUST01011,2025-09-04,travel,IndiGo Airlines,19944,credit_card,IndiGo Airlines - Travel
+TXN00000652,CUST01011,2025-09-04,travel,Goibibo,28321,credit_card,Goibibo - Travel
+TXN00000648,CUST01011,2025-09-05,shopping,Amazon,19681,debit_card,Amazon - Shopping
+TXN00000628,CUST01011,2025-09-07,food_dining,Domino's,1658,debit_card,Domino's - Food Dining
+TXN00000650,CUST01011,2025-09-16,education,Coursera,22928,credit_card,Coursera - Education
+TXN00000625,CUST01011,2025-09-19,food_dining,Zomato,1434,debit_card,Zomato - Food Dining
+TXN00000651,CUST01011,2025-09-21,food_dining,Domino's,2014,upi,Domino's - Food Dining
+TXN00000661,CUST01011,2025-09-23,travel,IRCTC,15614,netbanking,IRCTC - Travel
+TXN00000675,CUST01011,2025-09-27,utilities,Gas Bill,5203,debit_card,Gas Bill - Utilities
+TXN00000668,CUST01011,2025-09-28,food_dining,Swiggy,1192,debit_card,Swiggy - Food Dining
+TXN00000627,CUST01011,2025-09-29,investment,Groww,38129,credit_card,Groww - Investment
+TXN00000622,CUST01011,2025-10-01,utilities,Electricity Bill,2069,credit_card,Electricity Bill - Utilities
+TXN00000659,CUST01011,2025-10-01,groceries,More Supermarket,4746,credit_card,More Supermarket - Groceries
+TXN00000634,CUST01011,2025-10-02,food_dining,Starbucks,546,debit_card,Starbucks - Food Dining
+TXN00000623,CUST01011,2025-10-05,investment,Mutual Fund SIP,15034,upi,Mutual Fund SIP - Investment
+TXN00000657,CUST01011,2025-10-07,groceries,Spencer's,2119,netbanking,Spencer's - Groceries
+TXN00000646,CUST01011,2025-10-13,groceries,Reliance Fresh,3469,upi,Reliance Fresh - Groceries
+TXN00000679,CUST01011,2025-10-18,food_dining,Domino's,1543,upi,Domino's - Food Dining
+TXN00000660,CUST01011,2025-10-25,groceries,More Supermarket,2759,upi,More Supermarket - Groceries
+TXN00000680,CUST01011,2025-10-29,groceries,Spencer's,3505,upi,Spencer's - Groceries
+TXN00000676,CUST01011,2025-10-30,healthcare,Fortis Hospital,20258,upi,Fortis Hospital - Healthcare
+TXN00000620,CUST01011,2025-11-09,shopping,Myntra,8735,debit_card,Myntra - Shopping
+TXN00000629,CUST01011,2025-11-19,fuel,Bharat Petroleum,1211,upi,Bharat Petroleum - Fuel
+TXN00000740,CUST01012,2025-05-27,travel,IndiGo Airlines,24885,debit_card,IndiGo Airlines - Travel
+TXN00000765,CUST01012,2025-05-27,utilities,Gas Bill,2453,debit_card,Gas Bill - Utilities
+TXN00000688,CUST01012,2025-06-03,groceries,More Supermarket,6078,netbanking,More Supermarket - Groceries
+TXN00000747,CUST01012,2025-06-04,entertainment,PVR Cinemas,1795,credit_card,PVR Cinemas - Entertainment
+TXN00000763,CUST01012,2025-06-04,travel,IndiGo Airlines,24811,netbanking,IndiGo Airlines - Travel
+TXN00000695,CUST01012,2025-06-07,shopping,Pantaloons,16687,credit_card,Pantaloons - Shopping
+TXN00000733,CUST01012,2025-06-07,food_dining,Domino's,1117,upi,Domino's - Food Dining
+TXN00000744,CUST01012,2025-06-09,education,Unacademy,27682,debit_card,Unacademy - Education
+TXN00000684,CUST01012,2025-06-12,shopping,Amazon,641,credit_card,Amazon - Shopping
+TXN00000712,CUST01012,2025-06-12,food_dining,Domino's,1867,debit_card,Domino's - Food Dining
+TXN00000689,CUST01012,2025-06-13,shopping,Westside,5872,upi,Westside - Shopping
+TXN00000715,CUST01012,2025-06-20,fuel,Indian Oil,3543,upi,Indian Oil - Fuel
+TXN00000714,CUST01012,2025-06-23,shopping,Flipkart,19166,debit_card,Flipkart - Shopping
+TXN00000754,CUST01012,2025-06-25,travel,IndiGo Airlines,5027,debit_card,IndiGo Airlines - Travel
+TXN00000710,CUST01012,2025-06-27,food_dining,Swiggy,2023,credit_card,Swiggy - Food Dining
+TXN00000736,CUST01012,2025-06-28,utilities,Water Bill,669,credit_card,Water Bill - Utilities
+TXN00000718,CUST01012,2025-07-01,utilities,Mobile Recharge,917,credit_card,Mobile Recharge - Utilities
+TXN00000692,CUST01012,2025-07-07,entertainment,Spotify,1526,credit_card,Spotify - Entertainment
+TXN00000698,CUST01012,2025-07-08,utilities,Electricity Bill,4479,upi,Electricity Bill - Utilities
+TXN00000749,CUST01012,2025-07-08,education,Unacademy,13070,credit_card,Unacademy - Education
+TXN00000759,CUST01012,2025-07-10,groceries,Big Bazaar,1877,debit_card,Big Bazaar - Groceries
+TXN00000751,CUST01012,2025-07-11,investment,Paytm Money,17704,credit_card,Paytm Money - Investment
+TXN00000758,CUST01012,2025-07-11,healthcare,Medlife,11859,debit_card,Medlife - Healthcare
+TXN00000770,CUST01012,2025-07-13,food_dining,Starbucks,318,credit_card,Starbucks - Food Dining
+TXN00000727,CUST01012,2025-07-14,fuel,HP Petrol,1672,credit_card,HP Petrol - Fuel
+TXN00000755,CUST01012,2025-07-14,travel,IndiGo Airlines,25373,debit_card,IndiGo Airlines - Travel
+TXN00000760,CUST01012,2025-07-18,healthcare,Fortis Hospital,19843,upi,Fortis Hospital - Healthcare
+TXN00000748,CUST01012,2025-07-21,utilities,Mobile Recharge,3536,debit_card,Mobile Recharge - Utilities
+TXN00000752,CUST01012,2025-07-22,healthcare,Max Healthcare,14738,upi,Max Healthcare - Healthcare
+TXN00000730,CUST01012,2025-07-26,shopping,Pantaloons,15217,credit_card,Pantaloons - Shopping
+TXN00000732,CUST01012,2025-07-31,healthcare,Apollo Pharmacy,10301,credit_card,Apollo Pharmacy - Healthcare
+TXN00000700,CUST01012,2025-08-01,food_dining,Domino's,1827,credit_card,Domino's - Food Dining
+TXN00000713,CUST01012,2025-08-04,travel,Uber,34606,upi,Uber - Travel
+TXN00000746,CUST01012,2025-08-09,groceries,Reliance Fresh,8428,credit_card,Reliance Fresh - Groceries
+TXN00000739,CUST01012,2025-08-11,utilities,Water Bill,3853,debit_card,Water Bill - Utilities
+TXN00000699,CUST01012,2025-08-12,healthcare,Medlife,16986,upi,Medlife - Healthcare
+TXN00000767,CUST01012,2025-08-12,food_dining,Swiggy,1461,upi,Swiggy - Food Dining
+TXN00000764,CUST01012,2025-08-16,healthcare,PharmEasy,7204,credit_card,PharmEasy - Healthcare
+TXN00000693,CUST01012,2025-08-18,groceries,DMart,8505,debit_card,DMart - Groceries
+TXN00000719,CUST01012,2025-08-18,utilities,Electricity Bill,4492,upi,Electricity Bill - Utilities
+TXN00000753,CUST01012,2025-08-18,shopping,Pantaloons,10235,debit_card,Pantaloons - Shopping
+TXN00000683,CUST01012,2025-08-19,travel,MakeMyTrip,14101,credit_card,MakeMyTrip - Travel
+TXN00000742,CUST01012,2025-08-20,investment,Paytm Money,42291,credit_card,Paytm Money - Investment
+TXN00000757,CUST01012,2025-08-21,shopping,Pantaloons,15593,credit_card,Pantaloons - Shopping
+TXN00000716,CUST01012,2025-08-22,fuel,Bharat Petroleum,4337,debit_card,Bharat Petroleum - Fuel
+TXN00000766,CUST01012,2025-08-22,groceries,Big Bazaar,8084,debit_card,Big Bazaar - Groceries
+TXN00000696,CUST01012,2025-08-26,food_dining,Swiggy,1446,upi,Swiggy - Food Dining
+TXN00000720,CUST01012,2025-08-29,food_dining,McDonald's,1513,credit_card,McDonald's - Food Dining
+TXN00000686,CUST01012,2025-08-30,shopping,Westside,3923,upi,Westside - Shopping
+TXN00000738,CUST01012,2025-08-30,fuel,Shell,3264,credit_card,Shell - Fuel
+TXN00000701,CUST01012,2025-08-31,shopping,Westside,2062,credit_card,Westside - Shopping
+TXN00000705,CUST01012,2025-09-02,education,Byju's,36295,debit_card,Byju's - Education
+TXN00000707,CUST01012,2025-09-04,fuel,Indian Oil,5313,debit_card,Indian Oil - Fuel
+TXN00000726,CUST01012,2025-09-06,food_dining,Domino's,2569,credit_card,Domino's - Food Dining
+TXN00000724,CUST01012,2025-09-07,healthcare,PharmEasy,13212,upi,PharmEasy - Healthcare
+TXN00000704,CUST01012,2025-09-08,investment,Fixed Deposit,35820,debit_card,Fixed Deposit - Investment
+TXN00000756,CUST01012,2025-09-08,food_dining,Zomato,802,netbanking,Zomato - Food Dining
+TXN00000685,CUST01012,2025-09-15,utilities,Gas Bill,3991,debit_card,Gas Bill - Utilities
+TXN00000722,CUST01012,2025-09-16,healthcare,Max Healthcare,9788,upi,Max Healthcare - Healthcare
+TXN00000709,CUST01012,2025-09-17,food_dining,Zomato,1107,upi,Zomato - Food Dining
+TXN00000728,CUST01012,2025-09-19,food_dining,McDonald's,1055,credit_card,McDonald's - Food Dining
+TXN00000768,CUST01012,2025-09-19,utilities,Water Bill,4893,credit_card,Water Bill - Utilities
+TXN00000729,CUST01012,2025-09-21,travel,IndiGo Airlines,8478,debit_card,IndiGo Airlines - Travel
+TXN00000702,CUST01012,2025-09-22,groceries,More Supermarket,11044,credit_card,More Supermarket - Groceries
+TXN00000750,CUST01012,2025-09-23,food_dining,McDonald's,2529,upi,McDonald's - Food Dining
+TXN00000706,CUST01012,2025-09-24,entertainment,Netflix,4141,credit_card,Netflix - Entertainment
+TXN00000731,CUST01012,2025-09-24,entertainment,Prime Video,3060,credit_card,Prime Video - Entertainment
+TXN00000721,CUST01012,2025-09-28,fuel,Indian Oil,3067,credit_card,Indian Oil - Fuel
+TXN00000761,CUST01012,2025-09-28,healthcare,Apollo Pharmacy,5200,debit_card,Apollo Pharmacy - Healthcare
+TXN00000725,CUST01012,2025-10-04,healthcare,Apollo Pharmacy,11154,upi,Apollo Pharmacy - Healthcare
+TXN00000735,CUST01012,2025-10-04,food_dining,Cafe Coffee Day,276,debit_card,Cafe Coffee Day - Food Dining
+TXN00000708,CUST01012,2025-10-05,education,Unacademy,10863,credit_card,Unacademy - Education
+TXN00000694,CUST01012,2025-10-11,groceries,More Supermarket,6672,credit_card,More Supermarket - Groceries
+TXN00000690,CUST01012,2025-10-13,investment,Zerodha,50295,debit_card,Zerodha - Investment
+TXN00000717,CUST01012,2025-10-19,entertainment,BookMyShow,1650,credit_card,BookMyShow - Entertainment
+TXN00000687,CUST01012,2025-10-20,utilities,Gas Bill,1932,debit_card,Gas Bill - Utilities
+TXN00000741,CUST01012,2025-10-25,entertainment,Prime Video,1125,debit_card,Prime Video - Entertainment
+TXN00000723,CUST01012,2025-10-27,utilities,Gas Bill,4218,credit_card,Gas Bill - Utilities
+TXN00000737,CUST01012,2025-10-28,education,School Fees,19247,debit_card,School Fees - Education
+TXN00000691,CUST01012,2025-10-30,fuel,Indian Oil,4733,upi,Indian Oil - Fuel
+TXN00000697,CUST01012,2025-11-02,entertainment,Netflix,1034,credit_card,Netflix - Entertainment
+TXN00000711,CUST01012,2025-11-02,food_dining,Domino's,1296,credit_card,Domino's - Food Dining
+TXN00000762,CUST01012,2025-11-04,shopping,Westside,16243,credit_card,Westside - Shopping
+TXN00000734,CUST01012,2025-11-07,groceries,DMart,6208,debit_card,DMart - Groceries
+TXN00000743,CUST01012,2025-11-08,groceries,DMart,10275,upi,DMart - Groceries
+TXN00000745,CUST01012,2025-11-16,food_dining,Swiggy,2924,debit_card,Swiggy - Food Dining
+TXN00000769,CUST01012,2025-11-17,investment,Paytm Money,70248,credit_card,Paytm Money - Investment
+TXN00000703,CUST01012,2025-11-20,utilities,Electricity Bill,3416,upi,Electricity Bill - Utilities
+TXN00000783,CUST01013,2025-05-29,utilities,Electricity Bill,4647,credit_card,Electricity Bill - Utilities
+TXN00000808,CUST01013,2025-06-04,entertainment,BookMyShow,984,upi,BookMyShow - Entertainment
+TXN00000843,CUST01013,2025-06-05,shopping,Pantaloons,9258,credit_card,Pantaloons - Shopping
+TXN00000853,CUST01013,2025-06-05,utilities,Internet Bill,3724,upi,Internet Bill - Utilities
+TXN00000788,CUST01013,2025-06-06,food_dining,Zomato,2957,debit_card,Zomato - Food Dining
+TXN00000774,CUST01013,2025-06-07,utilities,Electricity Bill,995,debit_card,Electricity Bill - Utilities
+TXN00000793,CUST01013,2025-06-10,investment,Groww,19593,debit_card,Groww - Investment
+TXN00000803,CUST01013,2025-06-14,healthcare,Max Healthcare,8853,credit_card,Max Healthcare - Healthcare
+TXN00000784,CUST01013,2025-06-18,healthcare,Apollo Pharmacy,4279,upi,Apollo Pharmacy - Healthcare
+TXN00000790,CUST01013,2025-06-18,shopping,Myntra,6592,credit_card,Myntra - Shopping
+TXN00000786,CUST01013,2025-06-20,education,Coursera,20242,credit_card,Coursera - Education
+TXN00000813,CUST01013,2025-06-24,food_dining,Cafe Coffee Day,1148,credit_card,Cafe Coffee Day - Food Dining
+TXN00000779,CUST01013,2025-06-25,groceries,Big Bazaar,9954,credit_card,Big Bazaar - Groceries
+TXN00000772,CUST01013,2025-06-26,shopping,Amazon,12894,upi,Amazon - Shopping
+TXN00000771,CUST01013,2025-06-28,groceries,Big Bazaar,11461,debit_card,Big Bazaar - Groceries
+TXN00000796,CUST01013,2025-06-28,travel,Goibibo,7761,upi,Goibibo - Travel
+TXN00000832,CUST01013,2025-07-02,food_dining,Swiggy,1058,credit_card,Swiggy - Food Dining
+TXN00000845,CUST01013,2025-07-04,food_dining,McDonald's,2684,credit_card,McDonald's - Food Dining
+TXN00000802,CUST01013,2025-07-05,travel,Goibibo,32855,upi,Goibibo - Travel
+TXN00000833,CUST01013,2025-07-06,investment,Paytm Money,25192,upi,Paytm Money - Investment
+TXN00000822,CUST01013,2025-07-10,utilities,Gas Bill,1651,credit_card,Gas Bill - Utilities
+TXN00000848,CUST01013,2025-07-12,travel,IRCTC,10804,debit_card,IRCTC - Travel
+TXN00000841,CUST01013,2025-07-15,healthcare,Fortis Hospital,10599,debit_card,Fortis Hospital - Healthcare
+TXN00000780,CUST01013,2025-07-16,healthcare,PharmEasy,7568,credit_card,PharmEasy - Healthcare
+TXN00000782,CUST01013,2025-07-18,utilities,Mobile Recharge,3308,credit_card,Mobile Recharge - Utilities
+TXN00000811,CUST01013,2025-07-22,fuel,Bharat Petroleum,5788,upi,Bharat Petroleum - Fuel
+TXN00000800,CUST01013,2025-07-28,travel,IndiGo Airlines,25583,credit_card,IndiGo Airlines - Travel
+TXN00000839,CUST01013,2025-07-29,groceries,Reliance Fresh,5495,upi,Reliance Fresh - Groceries
+TXN00000773,CUST01013,2025-07-30,healthcare,PharmEasy,2552,debit_card,PharmEasy - Healthcare
+TXN00000804,CUST01013,2025-08-05,food_dining,Zomato,2494,debit_card,Zomato - Food Dining
+TXN00000828,CUST01013,2025-08-08,utilities,Gas Bill,2056,debit_card,Gas Bill - Utilities
+TXN00000789,CUST01013,2025-08-18,shopping,Westside,20975,credit_card,Westside - Shopping
+TXN00000825,CUST01013,2025-08-21,investment,Mutual Fund SIP,23481,credit_card,Mutual Fund SIP - Investment
+TXN00000852,CUST01013,2025-08-22,shopping,Pantaloons,20953,credit_card,Pantaloons - Shopping
+TXN00000814,CUST01013,2025-08-24,education,School Fees,37093,debit_card,School Fees - Education
+TXN00000795,CUST01013,2025-08-31,healthcare,PharmEasy,1904,upi,PharmEasy - Healthcare
+TXN00000817,CUST01013,2025-09-03,groceries,DMart,7336,credit_card,DMart - Groceries
+TXN00000791,CUST01013,2025-09-05,investment,Paytm Money,56556,debit_card,Paytm Money - Investment
+TXN00000805,CUST01013,2025-09-06,education,Coursera,31287,debit_card,Coursera - Education
+TXN00000781,CUST01013,2025-09-07,groceries,Big Bazaar,10780,debit_card,Big Bazaar - Groceries
+TXN00000816,CUST01013,2025-09-07,food_dining,Domino's,1042,credit_card,Domino's - Food Dining
+TXN00000775,CUST01013,2025-09-09,shopping,Amazon,18533,credit_card,Amazon - Shopping
+TXN00000818,CUST01013,2025-09-09,food_dining,Cafe Coffee Day,2993,debit_card,Cafe Coffee Day - Food Dining
+TXN00000777,CUST01013,2025-09-10,utilities,Water Bill,2811,debit_card,Water Bill - Utilities
+TXN00000824,CUST01013,2025-09-10,investment,Groww,41860,credit_card,Groww - Investment
+TXN00000831,CUST01013,2025-09-11,education,Unacademy,8177,credit_card,Unacademy - Education
+TXN00000821,CUST01013,2025-09-13,education,Byju's,34514,upi,Byju's - Education
+TXN00000797,CUST01013,2025-09-15,food_dining,McDonald's,2922,credit_card,McDonald's - Food Dining
+TXN00000819,CUST01013,2025-09-18,travel,IRCTC,33403,credit_card,IRCTC - Travel
+TXN00000835,CUST01013,2025-09-18,food_dining,Cafe Coffee Day,2541,upi,Cafe Coffee Day - Food Dining
+TXN00000792,CUST01013,2025-09-25,education,Udemy,8609,credit_card,Udemy - Education
+TXN00000807,CUST01013,2025-09-30,healthcare,Apollo Pharmacy,4323,debit_card,Apollo Pharmacy - Healthcare
+TXN00000820,CUST01013,2025-09-30,food_dining,Cafe Coffee Day,438,debit_card,Cafe Coffee Day - Food Dining
+TXN00000799,CUST01013,2025-10-05,travel,IndiGo Airlines,6601,debit_card,IndiGo Airlines - Travel
+TXN00000849,CUST01013,2025-10-10,shopping,Myntra,7848,upi,Myntra - Shopping
+TXN00000827,CUST01013,2025-10-13,fuel,HP Petrol,2845,credit_card,HP Petrol - Fuel
+TXN00000847,CUST01013,2025-10-13,shopping,Myntra,17816,credit_card,Myntra - Shopping
+TXN00000801,CUST01013,2025-10-15,fuel,Indian Oil,1295,debit_card,Indian Oil - Fuel
+TXN00000806,CUST01013,2025-10-19,travel,Goibibo,29659,credit_card,Goibibo - Travel
+TXN00000830,CUST01013,2025-10-22,entertainment,Spotify,2582,upi,Spotify - Entertainment
+TXN00000844,CUST01013,2025-10-22,fuel,Indian Oil,3907,debit_card,Indian Oil - Fuel
+TXN00000794,CUST01013,2025-10-24,travel,IRCTC,29075,credit_card,IRCTC - Travel
+TXN00000812,CUST01013,2025-10-26,travel,IndiGo Airlines,24168,upi,IndiGo Airlines - Travel
+TXN00000826,CUST01013,2025-10-27,utilities,Water Bill,3048,upi,Water Bill - Utilities
+TXN00000809,CUST01013,2025-10-31,utilities,Water Bill,5206,credit_card,Water Bill - Utilities
+TXN00000851,CUST01013,2025-10-31,travel,IRCTC,936,credit_card,IRCTC - Travel
+TXN00000846,CUST01013,2025-11-02,utilities,Internet Bill,4618,upi,Internet Bill - Utilities
+TXN00000785,CUST01013,2025-11-06,groceries,More Supermarket,6127,debit_card,More Supermarket - Groceries
+TXN00000836,CUST01013,2025-11-07,entertainment,Netflix,4425,upi,Netflix - Entertainment
+TXN00000823,CUST01013,2025-11-10,entertainment,Prime Video,4369,upi,Prime Video - Entertainment
+TXN00000850,CUST01013,2025-11-11,shopping,Myntra,10219,credit_card,Myntra - Shopping
+TXN00000810,CUST01013,2025-11-13,travel,MakeMyTrip,24172,upi,MakeMyTrip - Travel
+TXN00000787,CUST01013,2025-11-15,groceries,Big Bazaar,3356,upi,Big Bazaar - Groceries
+TXN00000842,CUST01013,2025-11-16,food_dining,Zomato,2344,credit_card,Zomato - Food Dining
+TXN00000838,CUST01013,2025-11-17,groceries,Spencer's,2681,credit_card,Spencer's - Groceries
+TXN00000834,CUST01013,2025-11-18,healthcare,Fortis Hospital,18693,credit_card,Fortis Hospital - Healthcare
+TXN00000829,CUST01013,2025-11-19,utilities,Electricity Bill,3485,debit_card,Electricity Bill - Utilities
+TXN00000837,CUST01013,2025-11-20,groceries,Big Bazaar,8051,credit_card,Big Bazaar - Groceries
+TXN00000776,CUST01013,2025-11-21,food_dining,Cafe Coffee Day,2821,credit_card,Cafe Coffee Day - Food Dining
+TXN00000778,CUST01013,2025-11-21,food_dining,Swiggy,2335,upi,Swiggy - Food Dining
+TXN00000815,CUST01013,2025-11-21,food_dining,Zomato,2256,credit_card,Zomato - Food Dining
+TXN00000798,CUST01013,2025-11-22,fuel,HP Petrol,6687,upi,HP Petrol - Fuel
+TXN00000840,CUST01013,2025-11-22,utilities,Internet Bill,5077,upi,Internet Bill - Utilities
+TXN00000889,CUST01014,2025-05-30,fuel,Indian Oil,4328,debit_card,Indian Oil - Fuel
+TXN00000861,CUST01014,2025-06-13,healthcare,Fortis Hospital,1189,debit_card,Fortis Hospital - Healthcare
+TXN00000867,CUST01014,2025-06-13,shopping,Pantaloons,2238,credit_card,Pantaloons - Shopping
+TXN00000854,CUST01014,2025-06-24,shopping,Pantaloons,12361,credit_card,Pantaloons - Shopping
+TXN00000908,CUST01014,2025-06-25,utilities,Mobile Recharge,1852,upi,Mobile Recharge - Utilities
+TXN00000919,CUST01014,2025-06-28,food_dining,Zomato,1270,upi,Zomato - Food Dining
+TXN00000885,CUST01014,2025-06-29,utilities,Internet Bill,2465,debit_card,Internet Bill - Utilities
+TXN00000893,CUST01014,2025-06-29,travel,IRCTC,3267,credit_card,IRCTC - Travel
+TXN00000873,CUST01014,2025-07-01,food_dining,Swiggy,1372,debit_card,Swiggy - Food Dining
+TXN00000897,CUST01014,2025-07-02,healthcare,Medlife,6678,credit_card,Medlife - Healthcare
+TXN00000896,CUST01014,2025-07-10,entertainment,PVR Cinemas,2900,upi,PVR Cinemas - Entertainment
+TXN00000881,CUST01014,2025-07-14,groceries,Reliance Fresh,4189,debit_card,Reliance Fresh - Groceries
+TXN00000879,CUST01014,2025-07-15,utilities,Mobile Recharge,1855,credit_card,Mobile Recharge - Utilities
+TXN00000888,CUST01014,2025-07-15,groceries,Big Bazaar,7459,credit_card,Big Bazaar - Groceries
+TXN00000907,CUST01014,2025-07-19,food_dining,Zomato,941,debit_card,Zomato - Food Dining
+TXN00000870,CUST01014,2025-07-21,food_dining,Starbucks,1831,upi,Starbucks - Food Dining
+TXN00000876,CUST01014,2025-07-21,utilities,Internet Bill,1295,credit_card,Internet Bill - Utilities
+TXN00000884,CUST01014,2025-07-21,utilities,Mobile Recharge,1633,upi,Mobile Recharge - Utilities
+TXN00000904,CUST01014,2025-07-22,travel,MakeMyTrip,11606,debit_card,MakeMyTrip - Travel
+TXN00000863,CUST01014,2025-07-29,entertainment,PVR Cinemas,1132,upi,PVR Cinemas - Entertainment
+TXN00000882,CUST01014,2025-08-12,utilities,Gas Bill,2816,debit_card,Gas Bill - Utilities
+TXN00000883,CUST01014,2025-08-14,investment,Groww,5316,credit_card,Groww - Investment
+TXN00000862,CUST01014,2025-08-18,food_dining,Swiggy,311,credit_card,Swiggy - Food Dining
+TXN00000918,CUST01014,2025-08-21,fuel,Indian Oil,1941,credit_card,Indian Oil - Fuel
+TXN00000875,CUST01014,2025-08-22,groceries,Spencer's,2666,credit_card,Spencer's - Groceries
+TXN00000886,CUST01014,2025-08-25,healthcare,Medlife,9838,credit_card,Medlife - Healthcare
+TXN00000892,CUST01014,2025-08-27,shopping,Pantaloons,12513,upi,Pantaloons - Shopping
+TXN00000865,CUST01014,2025-09-02,utilities,Water Bill,524,debit_card,Water Bill - Utilities
+TXN00000890,CUST01014,2025-09-06,healthcare,Fortis Hospital,1400,debit_card,Fortis Hospital - Healthcare
+TXN00000864,CUST01014,2025-09-07,shopping,Westside,7594,credit_card,Westside - Shopping
+TXN00000869,CUST01014,2025-09-15,shopping,Amazon,8265,credit_card,Amazon - Shopping
+TXN00000906,CUST01014,2025-09-15,food_dining,Swiggy,1253,debit_card,Swiggy - Food Dining
+TXN00000856,CUST01014,2025-09-17,travel,MakeMyTrip,21649,credit_card,MakeMyTrip - Travel
+TXN00000900,CUST01014,2025-09-19,fuel,Indian Oil,3656,credit_card,Indian Oil - Fuel
+TXN00000915,CUST01014,2025-09-23,fuel,HP Petrol,1898,upi,HP Petrol - Fuel
+TXN00000921,CUST01014,2025-09-24,fuel,Indian Oil,4595,upi,Indian Oil - Fuel
+TXN00000905,CUST01014,2025-09-26,fuel,Indian Oil,3055,upi,Indian Oil - Fuel
+TXN00000909,CUST01014,2025-09-26,utilities,Mobile Recharge,1363,debit_card,Mobile Recharge - Utilities
+TXN00000898,CUST01014,2025-09-27,groceries,More Supermarket,4526,credit_card,More Supermarket - Groceries
+TXN00000894,CUST01014,2025-10-01,food_dining,Zomato,1936,netbanking,Zomato - Food Dining
+TXN00000922,CUST01014,2025-10-01,healthcare,Apollo Pharmacy,8701,debit_card,Apollo Pharmacy - Healthcare
+TXN00000920,CUST01014,2025-10-02,utilities,Gas Bill,2980,credit_card,Gas Bill - Utilities
+TXN00000857,CUST01014,2025-10-04,food_dining,Swiggy,542,netbanking,Swiggy - Food Dining
+TXN00000855,CUST01014,2025-10-05,education,School Fees,17852,upi,School Fees - Education
+TXN00000913,CUST01014,2025-10-05,investment,Fixed Deposit,41936,debit_card,Fixed Deposit - Investment
+TXN00000858,CUST01014,2025-10-10,travel,IndiGo Airlines,2445,credit_card,IndiGo Airlines - Travel
+TXN00000860,CUST01014,2025-10-10,education,Byju's,22186,upi,Byju's - Education
+TXN00000874,CUST01014,2025-10-10,entertainment,BookMyShow,1448,credit_card,BookMyShow - Entertainment
+TXN00000871,CUST01014,2025-10-12,groceries,DMart,3941,debit_card,DMart - Groceries
+TXN00000891,CUST01014,2025-10-12,fuel,Shell,3678,upi,Shell - Fuel
+TXN00000878,CUST01014,2025-10-13,food_dining,Cafe Coffee Day,337,credit_card,Cafe Coffee Day - Food Dining
+TXN00000902,CUST01014,2025-10-18,food_dining,Cafe Coffee Day,975,credit_card,Cafe Coffee Day - Food Dining
+TXN00000911,CUST01014,2025-10-19,entertainment,Netflix,2778,debit_card,Netflix - Entertainment
+TXN00000912,CUST01014,2025-10-19,food_dining,Zomato,728,upi,Zomato - Food Dining
+TXN00000916,CUST01014,2025-10-26,food_dining,Domino's,1880,upi,Domino's - Food Dining
+TXN00000923,CUST01014,2025-10-27,travel,Uber,22535,debit_card,Uber - Travel
+TXN00000895,CUST01014,2025-10-30,utilities,Water Bill,1074,debit_card,Water Bill - Utilities
+TXN00000866,CUST01014,2025-10-31,food_dining,Cafe Coffee Day,1399,credit_card,Cafe Coffee Day - Food Dining
+TXN00000917,CUST01014,2025-11-01,utilities,Internet Bill,1186,upi,Internet Bill - Utilities
+TXN00000859,CUST01014,2025-11-03,healthcare,Medlife,14491,credit_card,Medlife - Healthcare
+TXN00000872,CUST01014,2025-11-07,shopping,Amazon,9568,upi,Amazon - Shopping
+TXN00000887,CUST01014,2025-11-07,entertainment,Prime Video,773,upi,Prime Video - Entertainment
+TXN00000910,CUST01014,2025-11-07,education,Coursera,8984,credit_card,Coursera - Education
+TXN00000903,CUST01014,2025-11-09,fuel,Indian Oil,3116,credit_card,Indian Oil - Fuel
+TXN00000914,CUST01014,2025-11-11,education,Coursera,8097,debit_card,Coursera - Education
+TXN00000877,CUST01014,2025-11-13,education,Coursera,18984,debit_card,Coursera - Education
+TXN00000880,CUST01014,2025-11-13,utilities,Electricity Bill,1667,debit_card,Electricity Bill - Utilities
+TXN00000899,CUST01014,2025-11-13,groceries,More Supermarket,4679,debit_card,More Supermarket - Groceries
+TXN00000868,CUST01014,2025-11-17,groceries,Big Bazaar,3806,upi,Big Bazaar - Groceries
+TXN00000901,CUST01014,2025-11-22,investment,Paytm Money,22256,debit_card,Paytm Money - Investment
+TXN00000929,CUST01015,2025-05-27,entertainment,BookMyShow,4497,credit_card,BookMyShow - Entertainment
+TXN00000959,CUST01015,2025-05-28,utilities,Internet Bill,2633,credit_card,Internet Bill - Utilities
+TXN00000994,CUST01015,2025-05-31,food_dining,Zomato,2951,credit_card,Zomato - Food Dining
+TXN00000941,CUST01015,2025-06-15,entertainment,Spotify,3522,debit_card,Spotify - Entertainment
+TXN00000996,CUST01015,2025-06-19,food_dining,Starbucks,2486,credit_card,Starbucks - Food Dining
+TXN00000965,CUST01015,2025-06-25,fuel,Shell,6228,credit_card,Shell - Fuel
+TXN00000985,CUST01015,2025-06-26,shopping,Pantaloons,7119,debit_card,Pantaloons - Shopping
+TXN00000980,CUST01015,2025-06-29,investment,Fixed Deposit,47383,upi,Fixed Deposit - Investment
+TXN00000979,CUST01015,2025-07-03,travel,Uber,11934,debit_card,Uber - Travel
+TXN00000931,CUST01015,2025-07-04,shopping,Pantaloons,8911,credit_card,Pantaloons - Shopping
+TXN00000998,CUST01015,2025-07-04,food_dining,Starbucks,1507,credit_card,Starbucks - Food Dining
+TXN00000947,CUST01015,2025-07-05,food_dining,McDonald's,1876,credit_card,McDonald's - Food Dining
+TXN00000943,CUST01015,2025-07-09,utilities,Mobile Recharge,687,credit_card,Mobile Recharge - Utilities
+TXN00000961,CUST01015,2025-07-10,travel,MakeMyTrip,14683,upi,MakeMyTrip - Travel
+TXN00000972,CUST01015,2025-07-18,shopping,Amazon,11263,credit_card,Amazon - Shopping
+TXN00000958,CUST01015,2025-07-23,education,Byju's,24340,debit_card,Byju's - Education
+TXN00000991,CUST01015,2025-07-23,groceries,More Supermarket,6182,debit_card,More Supermarket - Groceries
+TXN00000927,CUST01015,2025-07-24,fuel,Indian Oil,3520,debit_card,Indian Oil - Fuel
+TXN00000963,CUST01015,2025-07-25,healthcare,Max Healthcare,7735,credit_card,Max Healthcare - Healthcare
+TXN00000964,CUST01015,2025-07-28,education,School Fees,11423,upi,School Fees - Education
+TXN00000935,CUST01015,2025-07-29,investment,Fixed Deposit,51135,upi,Fixed Deposit - Investment
+TXN00000957,CUST01015,2025-07-31,food_dining,Cafe Coffee Day,1142,debit_card,Cafe Coffee Day - Food Dining
+TXN00000973,CUST01015,2025-07-31,groceries,More Supermarket,5685,credit_card,More Supermarket - Groceries
+TXN00000962,CUST01015,2025-08-02,groceries,DMart,9975,upi,DMart - Groceries
+TXN00000951,CUST01015,2025-08-04,groceries,DMart,9250,upi,DMart - Groceries
+TXN00000976,CUST01015,2025-08-05,travel,IRCTC,8954,netbanking,IRCTC - Travel
+TXN00000999,CUST01015,2025-08-06,shopping,Flipkart,4901,debit_card,Flipkart - Shopping
+TXN00000981,CUST01015,2025-08-10,groceries,Spencer's,2581,credit_card,Spencer's - Groceries
+TXN00000938,CUST01015,2025-08-20,education,Unacademy,4611,credit_card,Unacademy - Education
+TXN00000970,CUST01015,2025-08-22,shopping,Flipkart,15581,netbanking,Flipkart - Shopping
+TXN00000984,CUST01015,2025-08-26,entertainment,Prime Video,3059,credit_card,Prime Video - Entertainment
+TXN00000955,CUST01015,2025-08-30,entertainment,Netflix,3022,netbanking,Netflix - Entertainment
+TXN00000988,CUST01015,2025-08-31,entertainment,Spotify,1426,upi,Spotify - Entertainment
+TXN00000936,CUST01015,2025-09-04,healthcare,Apollo Pharmacy,8489,debit_card,Apollo Pharmacy - Healthcare
+TXN00000948,CUST01015,2025-09-04,shopping,Flipkart,17565,credit_card,Flipkart - Shopping
+TXN00000992,CUST01015,2025-09-04,groceries,Reliance Fresh,7750,upi,Reliance Fresh - Groceries
+TXN00000997,CUST01015,2025-09-04,travel,Uber,7171,credit_card,Uber - Travel
+TXN00000960,CUST01015,2025-09-05,utilities,Internet Bill,1222,debit_card,Internet Bill - Utilities
+TXN00000924,CUST01015,2025-09-10,shopping,Amazon,17961,debit_card,Amazon - Shopping
+TXN00000975,CUST01015,2025-09-10,utilities,Internet Bill,3590,upi,Internet Bill - Utilities
+TXN00000956,CUST01015,2025-09-20,utilities,Water Bill,824,debit_card,Water Bill - Utilities
+TXN00000925,CUST01015,2025-09-26,healthcare,Medlife,12445,debit_card,Medlife - Healthcare
+TXN00000967,CUST01015,2025-09-29,fuel,Bharat Petroleum,5220,credit_card,Bharat Petroleum - Fuel
+TXN00000968,CUST01015,2025-10-03,groceries,DMart,11248,credit_card,DMart - Groceries
+TXN00000954,CUST01015,2025-10-04,investment,Fixed Deposit,38786,debit_card,Fixed Deposit - Investment
+TXN00000942,CUST01015,2025-10-06,groceries,Spencer's,2741,upi,Spencer's - Groceries
+TXN00000993,CUST01015,2025-10-06,investment,Mutual Fund SIP,27930,credit_card,Mutual Fund SIP - Investment
+TXN00000969,CUST01015,2025-10-07,education,Byju's,36639,credit_card,Byju's - Education
+TXN00000932,CUST01015,2025-10-10,shopping,Myntra,20650,credit_card,Myntra - Shopping
+TXN00000966,CUST01015,2025-10-11,investment,Mutual Fund SIP,54653,debit_card,Mutual Fund SIP - Investment
+TXN00000928,CUST01015,2025-10-12,shopping,Flipkart,779,upi,Flipkart - Shopping
+TXN00000934,CUST01015,2025-10-15,travel,MakeMyTrip,37000,debit_card,MakeMyTrip - Travel
+TXN00000978,CUST01015,2025-10-15,shopping,Westside,7024,credit_card,Westside - Shopping
+TXN00000950,CUST01015,2025-10-16,fuel,Bharat Petroleum,4046,netbanking,Bharat Petroleum - Fuel
+TXN00000953,CUST01015,2025-10-16,food_dining,McDonald's,1632,upi,McDonald's - Food Dining
+TXN00000990,CUST01015,2025-10-19,shopping,Amazon,3192,credit_card,Amazon - Shopping
+TXN00000952,CUST01015,2025-10-20,food_dining,Zomato,1907,debit_card,Zomato - Food Dining
+TXN00000940,CUST01015,2025-10-26,shopping,Amazon,9220,credit_card,Amazon - Shopping
+TXN00000945,CUST01015,2025-10-26,travel,IndiGo Airlines,15542,debit_card,IndiGo Airlines - Travel
+TXN00000974,CUST01015,2025-10-29,shopping,Flipkart,16943,debit_card,Flipkart - Shopping
+TXN00000983,CUST01015,2025-11-03,food_dining,Cafe Coffee Day,1610,credit_card,Cafe Coffee Day - Food Dining
+TXN00000939,CUST01015,2025-11-04,food_dining,Swiggy,835,debit_card,Swiggy - Food Dining
+TXN00000989,CUST01015,2025-11-05,education,School Fees,28844,debit_card,School Fees - Education
+TXN00000986,CUST01015,2025-11-08,utilities,Gas Bill,2931,credit_card,Gas Bill - Utilities
+TXN00000930,CUST01015,2025-11-09,groceries,More Supermarket,8498,credit_card,More Supermarket - Groceries
+TXN00000944,CUST01015,2025-11-10,fuel,Bharat Petroleum,2795,credit_card,Bharat Petroleum - Fuel
+TXN00000946,CUST01015,2025-11-14,food_dining,Zomato,2922,credit_card,Zomato - Food Dining
+TXN00000987,CUST01015,2025-11-14,travel,IndiGo Airlines,29650,upi,IndiGo Airlines - Travel
+TXN00000933,CUST01015,2025-11-16,shopping,Flipkart,14140,debit_card,Flipkart - Shopping
+TXN00000977,CUST01015,2025-11-17,groceries,Big Bazaar,6222,upi,Big Bazaar - Groceries
+TXN00000982,CUST01015,2025-11-18,food_dining,Zomato,1281,debit_card,Zomato - Food Dining
+TXN00000926,CUST01015,2025-11-20,entertainment,Spotify,1336,credit_card,Spotify - Entertainment
+TXN00000971,CUST01015,2025-11-20,travel,MakeMyTrip,911,credit_card,MakeMyTrip - Travel
+TXN00000937,CUST01015,2025-11-21,investment,Zerodha,34109,debit_card,Zerodha - Investment
+TXN00000995,CUST01015,2025-11-21,healthcare,Fortis Hospital,6429,credit_card,Fortis Hospital - Healthcare
+TXN00000949,CUST01015,2025-11-22,food_dining,Swiggy,2491,credit_card,Swiggy - Food Dining
+TXN00001019,CUST01016,2025-05-28,groceries,DMart,1620,debit_card,DMart - Groceries
+TXN00001017,CUST01016,2025-05-30,food_dining,Domino's,245,credit_card,Domino's - Food Dining
+TXN00001000,CUST01016,2025-06-02,food_dining,McDonald's,1962,upi,McDonald's - Food Dining
+TXN00001021,CUST01016,2025-06-03,shopping,Flipkart,1418,credit_card,Flipkart - Shopping
+TXN00001025,CUST01016,2025-06-03,groceries,Big Bazaar,5769,debit_card,Big Bazaar - Groceries
+TXN00001029,CUST01016,2025-06-08,fuel,HP Petrol,4986,credit_card,HP Petrol - Fuel
+TXN00001012,CUST01016,2025-06-15,shopping,Flipkart,8964,upi,Flipkart - Shopping
+TXN00001005,CUST01016,2025-06-17,shopping,Myntra,7253,credit_card,Myntra - Shopping
+TXN00001018,CUST01016,2025-06-21,groceries,DMart,7358,debit_card,DMart - Groceries
+TXN00001002,CUST01016,2025-06-29,investment,Fixed Deposit,16602,debit_card,Fixed Deposit - Investment
+TXN00001007,CUST01016,2025-06-29,shopping,Westside,9267,credit_card,Westside - Shopping
+TXN00001027,CUST01016,2025-07-05,utilities,Electricity Bill,2751,debit_card,Electricity Bill - Utilities
+TXN00001015,CUST01016,2025-07-11,food_dining,Swiggy,1504,debit_card,Swiggy - Food Dining
+TXN00001026,CUST01016,2025-07-18,travel,IndiGo Airlines,10527,upi,IndiGo Airlines - Travel
+TXN00001024,CUST01016,2025-07-28,shopping,Westside,4549,upi,Westside - Shopping
+TXN00001023,CUST01016,2025-07-29,education,Coursera,4996,netbanking,Coursera - Education
+TXN00001028,CUST01016,2025-07-29,travel,MakeMyTrip,6811,credit_card,MakeMyTrip - Travel
+TXN00001006,CUST01016,2025-08-11,food_dining,Domino's,1869,upi,Domino's - Food Dining
+TXN00001020,CUST01016,2025-08-21,shopping,Westside,6584,debit_card,Westside - Shopping
+TXN00001022,CUST01016,2025-09-03,food_dining,Starbucks,571,credit_card,Starbucks - Food Dining
+TXN00001011,CUST01016,2025-09-04,groceries,Reliance Fresh,4599,credit_card,Reliance Fresh - Groceries
+TXN00001009,CUST01016,2025-09-13,education,Unacademy,8576,upi,Unacademy - Education
+TXN00001016,CUST01016,2025-09-18,groceries,Spencer's,5530,credit_card,Spencer's - Groceries
+TXN00001003,CUST01016,2025-09-19,utilities,Water Bill,2281,debit_card,Water Bill - Utilities
+TXN00001001,CUST01016,2025-09-24,travel,IRCTC,9226,debit_card,IRCTC - Travel
+TXN00001008,CUST01016,2025-09-28,investment,Mutual Fund SIP,24635,credit_card,Mutual Fund SIP - Investment
+TXN00001014,CUST01016,2025-10-09,education,Byju's,7160,upi,Byju's - Education
+TXN00001010,CUST01016,2025-10-13,shopping,Westside,14953,debit_card,Westside - Shopping
+TXN00001013,CUST01016,2025-10-29,education,School Fees,10328,debit_card,School Fees - Education
+TXN00001004,CUST01016,2025-11-05,travel,MakeMyTrip,16082,debit_card,MakeMyTrip - Travel
+TXN00001037,CUST01017,2025-05-31,utilities,Internet Bill,3467,credit_card,Internet Bill - Utilities
+TXN00001068,CUST01017,2025-05-31,healthcare,Max Healthcare,9871,debit_card,Max Healthcare - Healthcare
+TXN00001038,CUST01017,2025-06-05,travel,Goibibo,18618,credit_card,Goibibo - Travel
+TXN00001055,CUST01017,2025-06-05,utilities,Internet Bill,819,upi,Internet Bill - Utilities
+TXN00001080,CUST01017,2025-06-07,utilities,Mobile Recharge,2325,upi,Mobile Recharge - Utilities
+TXN00001083,CUST01017,2025-06-07,entertainment,Prime Video,548,credit_card,Prime Video - Entertainment
+TXN00001048,CUST01017,2025-06-12,food_dining,Zomato,565,upi,Zomato - Food Dining
+TXN00001052,CUST01017,2025-06-13,food_dining,Zomato,1542,debit_card,Zomato - Food Dining
+TXN00001053,CUST01017,2025-06-15,travel,IndiGo Airlines,2289,credit_card,IndiGo Airlines - Travel
+TXN00001033,CUST01017,2025-06-17,groceries,Reliance Fresh,2248,debit_card,Reliance Fresh - Groceries
+TXN00001088,CUST01017,2025-06-17,food_dining,Starbucks,1067,credit_card,Starbucks - Food Dining
+TXN00001074,CUST01017,2025-06-19,entertainment,Prime Video,353,upi,Prime Video - Entertainment
+TXN00001060,CUST01017,2025-06-21,food_dining,Zomato,1326,debit_card,Zomato - Food Dining
+TXN00001035,CUST01017,2025-07-04,utilities,Electricity Bill,1015,debit_card,Electricity Bill - Utilities
+TXN00001058,CUST01017,2025-07-10,entertainment,PVR Cinemas,1900,upi,PVR Cinemas - Entertainment
+TXN00001057,CUST01017,2025-07-13,groceries,DMart,6169,debit_card,DMart - Groceries
+TXN00001089,CUST01017,2025-07-13,groceries,Spencer's,6869,credit_card,Spencer's - Groceries
+TXN00001049,CUST01017,2025-07-16,food_dining,Zomato,402,credit_card,Zomato - Food Dining
+TXN00001071,CUST01017,2025-07-28,groceries,More Supermarket,2252,debit_card,More Supermarket - Groceries
+TXN00001042,CUST01017,2025-08-01,travel,Goibibo,323,upi,Goibibo - Travel
+TXN00001087,CUST01017,2025-08-02,healthcare,Max Healthcare,12018,upi,Max Healthcare - Healthcare
+TXN00001066,CUST01017,2025-08-06,entertainment,PVR Cinemas,753,netbanking,PVR Cinemas - Entertainment
+TXN00001067,CUST01017,2025-08-11,food_dining,Zomato,639,upi,Zomato - Food Dining
+TXN00001036,CUST01017,2025-08-15,investment,Paytm Money,33751,upi,Paytm Money - Investment
+TXN00001040,CUST01017,2025-08-16,utilities,Internet Bill,2952,upi,Internet Bill - Utilities
+TXN00001034,CUST01017,2025-08-20,fuel,Indian Oil,1244,credit_card,Indian Oil - Fuel
+TXN00001061,CUST01017,2025-08-20,utilities,Water Bill,2957,debit_card,Water Bill - Utilities
+TXN00001062,CUST01017,2025-08-24,fuel,Bharat Petroleum,4460,credit_card,Bharat Petroleum - Fuel
+TXN00001070,CUST01017,2025-08-25,food_dining,McDonald's,951,upi,McDonald's - Food Dining
+TXN00001044,CUST01017,2025-08-27,healthcare,Fortis Hospital,6054,upi,Fortis Hospital - Healthcare
+TXN00001078,CUST01017,2025-08-31,food_dining,Domino's,284,credit_card,Domino's - Food Dining
+TXN00001082,CUST01017,2025-09-03,food_dining,McDonald's,369,debit_card,McDonald's - Food Dining
+TXN00001031,CUST01017,2025-09-04,healthcare,Apollo Pharmacy,1488,debit_card,Apollo Pharmacy - Healthcare
+TXN00001047,CUST01017,2025-09-07,utilities,Electricity Bill,894,debit_card,Electricity Bill - Utilities
+TXN00001054,CUST01017,2025-09-09,education,Coursera,21215,credit_card,Coursera - Education
+TXN00001030,CUST01017,2025-09-14,groceries,DMart,3761,debit_card,DMart - Groceries
+TXN00001076,CUST01017,2025-09-14,shopping,Amazon,14750,upi,Amazon - Shopping
+TXN00001084,CUST01017,2025-09-14,healthcare,Fortis Hospital,13285,credit_card,Fortis Hospital - Healthcare
+TXN00001065,CUST01017,2025-09-18,travel,Goibibo,306,upi,Goibibo - Travel
+TXN00001073,CUST01017,2025-09-26,food_dining,Cafe Coffee Day,1639,debit_card,Cafe Coffee Day - Food Dining
+TXN00001046,CUST01017,2025-09-30,healthcare,Fortis Hospital,10844,credit_card,Fortis Hospital - Healthcare
+TXN00001043,CUST01017,2025-10-02,shopping,Flipkart,14965,credit_card,Flipkart - Shopping
+TXN00001056,CUST01017,2025-10-05,food_dining,Cafe Coffee Day,673,debit_card,Cafe Coffee Day - Food Dining
+TXN00001064,CUST01017,2025-10-12,groceries,Spencer's,7599,credit_card,Spencer's - Groceries
+TXN00001041,CUST01017,2025-10-14,food_dining,Domino's,517,debit_card,Domino's - Food Dining
+TXN00001085,CUST01017,2025-10-16,groceries,Reliance Fresh,6843,debit_card,Reliance Fresh - Groceries
+TXN00001086,CUST01017,2025-10-16,utilities,Water Bill,1508,credit_card,Water Bill - Utilities
+TXN00001079,CUST01017,2025-10-17,food_dining,Domino's,1629,credit_card,Domino's - Food Dining
+TXN00001072,CUST01017,2025-10-18,fuel,Indian Oil,3963,credit_card,Indian Oil - Fuel
+TXN00001069,CUST01017,2025-10-19,fuel,HP Petrol,1386,credit_card,HP Petrol - Fuel
+TXN00001075,CUST01017,2025-10-20,shopping,Amazon,13130,credit_card,Amazon - Shopping
+TXN00001081,CUST01017,2025-10-20,travel,Ola,14453,credit_card,Ola - Travel
+TXN00001051,CUST01017,2025-10-24,groceries,More Supermarket,3308,debit_card,More Supermarket - Groceries
+TXN00001063,CUST01017,2025-11-04,shopping,Myntra,10468,credit_card,Myntra - Shopping
+TXN00001059,CUST01017,2025-11-05,entertainment,Spotify,2924,debit_card,Spotify - Entertainment
+TXN00001050,CUST01017,2025-11-06,education,Byju's,18230,debit_card,Byju's - Education
+TXN00001077,CUST01017,2025-11-09,fuel,Indian Oil,3596,upi,Indian Oil - Fuel
+TXN00001045,CUST01017,2025-11-10,investment,Mutual Fund SIP,17443,debit_card,Mutual Fund SIP - Investment
+TXN00001032,CUST01017,2025-11-18,travel,IRCTC,5378,credit_card,IRCTC - Travel
+TXN00001039,CUST01017,2025-11-20,travel,IRCTC,6415,debit_card,IRCTC - Travel
+TXN00001107,CUST01018,2025-05-30,shopping,Myntra,6322,debit_card,Myntra - Shopping
+TXN00001111,CUST01018,2025-06-17,utilities,Water Bill,3277,debit_card,Water Bill - Utilities
+TXN00001121,CUST01018,2025-06-22,food_dining,Swiggy,1761,netbanking,Swiggy - Food Dining
+TXN00001114,CUST01018,2025-06-28,groceries,DMart,6259,debit_card,DMart - Groceries
+TXN00001097,CUST01018,2025-07-01,utilities,Electricity Bill,2042,debit_card,Electricity Bill - Utilities
+TXN00001117,CUST01018,2025-07-02,utilities,Water Bill,1147,credit_card,Water Bill - Utilities
+TXN00001119,CUST01018,2025-07-02,utilities,Internet Bill,2195,netbanking,Internet Bill - Utilities
+TXN00001092,CUST01018,2025-07-04,healthcare,Apollo Pharmacy,2641,upi,Apollo Pharmacy - Healthcare
+TXN00001090,CUST01018,2025-07-08,investment,Fixed Deposit,33980,debit_card,Fixed Deposit - Investment
+TXN00001099,CUST01018,2025-07-16,healthcare,PharmEasy,5244,credit_card,PharmEasy - Healthcare
+TXN00001115,CUST01018,2025-07-16,fuel,Bharat Petroleum,3820,upi,Bharat Petroleum - Fuel
+TXN00001123,CUST01018,2025-07-24,groceries,Big Bazaar,4443,credit_card,Big Bazaar - Groceries
+TXN00001108,CUST01018,2025-07-25,investment,Fixed Deposit,23079,upi,Fixed Deposit - Investment
+TXN00001093,CUST01018,2025-07-27,investment,Groww,23853,credit_card,Groww - Investment
+TXN00001110,CUST01018,2025-08-05,groceries,More Supermarket,4718,debit_card,More Supermarket - Groceries
+TXN00001102,CUST01018,2025-08-08,fuel,Shell,1946,netbanking,Shell - Fuel
+TXN00001120,CUST01018,2025-08-11,shopping,Myntra,2989,upi,Myntra - Shopping
+TXN00001095,CUST01018,2025-08-18,groceries,Spencer's,3235,credit_card,Spencer's - Groceries
+TXN00001113,CUST01018,2025-09-12,investment,Fixed Deposit,26580,debit_card,Fixed Deposit - Investment
+TXN00001091,CUST01018,2025-09-15,food_dining,Zomato,608,debit_card,Zomato - Food Dining
+TXN00001105,CUST01018,2025-09-20,entertainment,BookMyShow,362,credit_card,BookMyShow - Entertainment
+TXN00001103,CUST01018,2025-10-03,investment,Zerodha,25673,debit_card,Zerodha - Investment
+TXN00001096,CUST01018,2025-10-06,healthcare,PharmEasy,8713,debit_card,PharmEasy - Healthcare
+TXN00001116,CUST01018,2025-10-07,fuel,Shell,4723,netbanking,Shell - Fuel
+TXN00001106,CUST01018,2025-10-08,groceries,Reliance Fresh,4722,upi,Reliance Fresh - Groceries
+TXN00001118,CUST01018,2025-10-15,travel,IndiGo Airlines,4179,credit_card,IndiGo Airlines - Travel
+TXN00001104,CUST01018,2025-10-25,travel,Ola,6816,debit_card,Ola - Travel
+TXN00001122,CUST01018,2025-10-30,groceries,Spencer's,6516,credit_card,Spencer's - Groceries
+TXN00001109,CUST01018,2025-11-02,groceries,Reliance Fresh,1741,upi,Reliance Fresh - Groceries
+TXN00001112,CUST01018,2025-11-02,utilities,Mobile Recharge,1484,debit_card,Mobile Recharge - Utilities
+TXN00001100,CUST01018,2025-11-09,investment,Zerodha,30470,debit_card,Zerodha - Investment
+TXN00001098,CUST01018,2025-11-11,travel,MakeMyTrip,5881,credit_card,MakeMyTrip - Travel
+TXN00001101,CUST01018,2025-11-11,fuel,Bharat Petroleum,4540,credit_card,Bharat Petroleum - Fuel
+TXN00001094,CUST01018,2025-11-19,education,School Fees,15747,debit_card,School Fees - Education
+TXN00001150,CUST01019,2025-05-27,entertainment,Spotify,2188,credit_card,Spotify - Entertainment
+TXN00001172,CUST01019,2025-05-27,food_dining,McDonald's,1638,credit_card,McDonald's - Food Dining
+TXN00001127,CUST01019,2025-05-29,fuel,Shell,3023,upi,Shell - Fuel
+TXN00001178,CUST01019,2025-05-30,groceries,More Supermarket,7593,credit_card,More Supermarket - Groceries
+TXN00001205,CUST01019,2025-06-02,food_dining,Swiggy,1679,debit_card,Swiggy - Food Dining
+TXN00001182,CUST01019,2025-06-03,groceries,Big Bazaar,9943,upi,Big Bazaar - Groceries
+TXN00001188,CUST01019,2025-06-04,travel,IndiGo Airlines,34592,credit_card,IndiGo Airlines - Travel
+TXN00001190,CUST01019,2025-06-06,food_dining,Cafe Coffee Day,1519,credit_card,Cafe Coffee Day - Food Dining
+TXN00001197,CUST01019,2025-06-07,food_dining,Starbucks,446,credit_card,Starbucks - Food Dining
+TXN00001147,CUST01019,2025-06-08,shopping,Myntra,15222,credit_card,Myntra - Shopping
+TXN00001198,CUST01019,2025-06-08,food_dining,Starbucks,973,upi,Starbucks - Food Dining
+TXN00001154,CUST01019,2025-06-09,utilities,Electricity Bill,1790,upi,Electricity Bill - Utilities
+TXN00001177,CUST01019,2025-06-09,education,School Fees,21876,debit_card,School Fees - Education
+TXN00001171,CUST01019,2025-06-12,groceries,Spencer's,10811,credit_card,Spencer's - Groceries
+TXN00001156,CUST01019,2025-06-17,food_dining,Starbucks,970,credit_card,Starbucks - Food Dining
+TXN00001143,CUST01019,2025-06-18,food_dining,Starbucks,2837,credit_card,Starbucks - Food Dining
+TXN00001187,CUST01019,2025-06-20,education,Unacademy,9897,credit_card,Unacademy - Education
+TXN00001139,CUST01019,2025-06-23,food_dining,Domino's,2478,credit_card,Domino's - Food Dining
+TXN00001181,CUST01019,2025-06-24,fuel,Bharat Petroleum,6977,upi,Bharat Petroleum - Fuel
+TXN00001168,CUST01019,2025-06-25,healthcare,Fortis Hospital,21122,netbanking,Fortis Hospital - Healthcare
+TXN00001179,CUST01019,2025-07-03,groceries,Big Bazaar,7356,netbanking,Big Bazaar - Groceries
+TXN00001126,CUST01019,2025-07-06,groceries,Big Bazaar,8494,upi,Big Bazaar - Groceries
+TXN00001196,CUST01019,2025-07-08,food_dining,Domino's,1627,debit_card,Domino's - Food Dining
+TXN00001206,CUST01019,2025-07-08,groceries,More Supermarket,11703,debit_card,More Supermarket - Groceries
+TXN00001184,CUST01019,2025-07-09,food_dining,Swiggy,1067,upi,Swiggy - Food Dining
+TXN00001148,CUST01019,2025-07-11,food_dining,Zomato,1070,credit_card,Zomato - Food Dining
+TXN00001166,CUST01019,2025-07-11,fuel,HP Petrol,7004,credit_card,HP Petrol - Fuel
+TXN00001167,CUST01019,2025-07-14,food_dining,Swiggy,2144,debit_card,Swiggy - Food Dining
+TXN00001200,CUST01019,2025-07-15,utilities,Water Bill,1243,netbanking,Water Bill - Utilities
+TXN00001128,CUST01019,2025-07-16,healthcare,Apollo Pharmacy,6762,upi,Apollo Pharmacy - Healthcare
+TXN00001141,CUST01019,2025-07-16,fuel,Indian Oil,3248,credit_card,Indian Oil - Fuel
+TXN00001162,CUST01019,2025-07-18,entertainment,BookMyShow,958,debit_card,BookMyShow - Entertainment
+TXN00001170,CUST01019,2025-07-19,food_dining,Zomato,1393,credit_card,Zomato - Food Dining
+TXN00001203,CUST01019,2025-07-22,food_dining,Domino's,1296,upi,Domino's - Food Dining
+TXN00001149,CUST01019,2025-07-29,food_dining,Starbucks,2282,debit_card,Starbucks - Food Dining
+TXN00001193,CUST01019,2025-08-03,food_dining,McDonald's,708,credit_card,McDonald's - Food Dining
+TXN00001161,CUST01019,2025-08-04,shopping,Westside,17791,credit_card,Westside - Shopping
+TXN00001157,CUST01019,2025-08-06,entertainment,PVR Cinemas,1693,netbanking,PVR Cinemas - Entertainment
+TXN00001192,CUST01019,2025-08-07,groceries,More Supermarket,9027,debit_card,More Supermarket - Groceries
+TXN00001137,CUST01019,2025-08-09,entertainment,BookMyShow,4475,upi,BookMyShow - Entertainment
+TXN00001136,CUST01019,2025-08-11,healthcare,Max Healthcare,16077,credit_card,Max Healthcare - Healthcare
+TXN00001189,CUST01019,2025-08-13,fuel,Indian Oil,3930,debit_card,Indian Oil - Fuel
+TXN00001191,CUST01019,2025-08-13,utilities,Gas Bill,3228,credit_card,Gas Bill - Utilities
+TXN00001202,CUST01019,2025-08-13,utilities,Mobile Recharge,4454,credit_card,Mobile Recharge - Utilities
+TXN00001164,CUST01019,2025-08-15,groceries,Spencer's,7597,upi,Spencer's - Groceries
+TXN00001159,CUST01019,2025-08-16,shopping,Westside,2817,upi,Westside - Shopping
+TXN00001174,CUST01019,2025-08-20,fuel,Shell,5087,upi,Shell - Fuel
+TXN00001186,CUST01019,2025-08-21,fuel,Bharat Petroleum,3881,credit_card,Bharat Petroleum - Fuel
+TXN00001125,CUST01019,2025-08-29,groceries,Reliance Fresh,9851,debit_card,Reliance Fresh - Groceries
+TXN00001183,CUST01019,2025-08-29,travel,MakeMyTrip,14524,debit_card,MakeMyTrip - Travel
+TXN00001145,CUST01019,2025-08-31,food_dining,Zomato,1612,debit_card,Zomato - Food Dining
+TXN00001204,CUST01019,2025-09-03,groceries,More Supermarket,7120,debit_card,More Supermarket - Groceries
+TXN00001134,CUST01019,2025-09-04,investment,Zerodha,56777,debit_card,Zerodha - Investment
+TXN00001140,CUST01019,2025-09-08,groceries,Big Bazaar,4730,debit_card,Big Bazaar - Groceries
+TXN00001169,CUST01019,2025-09-08,food_dining,McDonald's,2535,upi,McDonald's - Food Dining
+TXN00001129,CUST01019,2025-09-15,fuel,Shell,6834,credit_card,Shell - Fuel
+TXN00001185,CUST01019,2025-09-16,travel,Goibibo,33131,credit_card,Goibibo - Travel
+TXN00001133,CUST01019,2025-09-18,travel,Uber,16463,debit_card,Uber - Travel
+TXN00001130,CUST01019,2025-09-20,fuel,Shell,4516,upi,Shell - Fuel
+TXN00001138,CUST01019,2025-09-21,education,Byju's,7127,upi,Byju's - Education
+TXN00001201,CUST01019,2025-09-22,entertainment,BookMyShow,4076,credit_card,BookMyShow - Entertainment
+TXN00001124,CUST01019,2025-09-25,food_dining,Domino's,2160,upi,Domino's - Food Dining
+TXN00001207,CUST01019,2025-10-03,food_dining,Cafe Coffee Day,678,credit_card,Cafe Coffee Day - Food Dining
+TXN00001144,CUST01019,2025-10-07,utilities,Water Bill,1909,credit_card,Water Bill - Utilities
+TXN00001176,CUST01019,2025-10-10,fuel,Shell,4591,upi,Shell - Fuel
+TXN00001160,CUST01019,2025-10-13,food_dining,Starbucks,791,credit_card,Starbucks - Food Dining
+TXN00001195,CUST01019,2025-10-13,groceries,DMart,6441,debit_card,DMart - Groceries
+TXN00001153,CUST01019,2025-10-15,education,Udemy,4405,credit_card,Udemy - Education
+TXN00001173,CUST01019,2025-10-18,utilities,Electricity Bill,2038,credit_card,Electricity Bill - Utilities
+TXN00001132,CUST01019,2025-10-19,entertainment,PVR Cinemas,555,debit_card,PVR Cinemas - Entertainment
+TXN00001158,CUST01019,2025-10-21,shopping,Amazon,3651,upi,Amazon - Shopping
+TXN00001199,CUST01019,2025-10-24,utilities,Mobile Recharge,3513,credit_card,Mobile Recharge - Utilities
+TXN00001152,CUST01019,2025-10-26,food_dining,Domino's,1379,debit_card,Domino's - Food Dining
+TXN00001131,CUST01019,2025-10-28,healthcare,Medlife,11213,credit_card,Medlife - Healthcare
+TXN00001165,CUST01019,2025-10-30,entertainment,PVR Cinemas,4317,debit_card,PVR Cinemas - Entertainment
+TXN00001194,CUST01019,2025-11-01,entertainment,BookMyShow,1932,debit_card,BookMyShow - Entertainment
+TXN00001180,CUST01019,2025-11-02,travel,Ola,25890,credit_card,Ola - Travel
+TXN00001135,CUST01019,2025-11-03,investment,Groww,44165,debit_card,Groww - Investment
+TXN00001175,CUST01019,2025-11-07,food_dining,Zomato,2809,debit_card,Zomato - Food Dining
+TXN00001142,CUST01019,2025-11-08,fuel,HP Petrol,7084,upi,HP Petrol - Fuel
+TXN00001146,CUST01019,2025-11-10,fuel,HP Petrol,2384,credit_card,HP Petrol - Fuel
+TXN00001151,CUST01019,2025-11-10,travel,Goibibo,29318,credit_card,Goibibo - Travel
+TXN00001155,CUST01019,2025-11-12,entertainment,PVR Cinemas,2684,credit_card,PVR Cinemas - Entertainment
+TXN00001163,CUST01019,2025-11-18,entertainment,Prime Video,3738,debit_card,Prime Video - Entertainment
+TXN00001242,CUST01020,2025-05-28,travel,IRCTC,15675,debit_card,IRCTC - Travel
+TXN00001261,CUST01020,2025-06-05,food_dining,Domino's,1505,credit_card,Domino's - Food Dining
+TXN00001246,CUST01020,2025-06-08,utilities,Internet Bill,3057,credit_card,Internet Bill - Utilities
+TXN00001256,CUST01020,2025-06-08,utilities,Electricity Bill,715,credit_card,Electricity Bill - Utilities
+TXN00001208,CUST01020,2025-06-13,healthcare,PharmEasy,8352,debit_card,PharmEasy - Healthcare
+TXN00001263,CUST01020,2025-06-20,groceries,Spencer's,4704,debit_card,Spencer's - Groceries
+TXN00001231,CUST01020,2025-06-29,food_dining,Cafe Coffee Day,1850,debit_card,Cafe Coffee Day - Food Dining
+TXN00001217,CUST01020,2025-06-30,fuel,Indian Oil,4100,credit_card,Indian Oil - Fuel
+TXN00001230,CUST01020,2025-07-01,utilities,Mobile Recharge,3194,debit_card,Mobile Recharge - Utilities
+TXN00001218,CUST01020,2025-07-03,travel,MakeMyTrip,13078,debit_card,MakeMyTrip - Travel
+TXN00001227,CUST01020,2025-07-09,travel,Ola,18500,credit_card,Ola - Travel
+TXN00001234,CUST01020,2025-07-12,shopping,Amazon,9968,debit_card,Amazon - Shopping
+TXN00001235,CUST01020,2025-07-25,utilities,Internet Bill,2182,upi,Internet Bill - Utilities
+TXN00001249,CUST01020,2025-07-30,food_dining,Swiggy,1436,credit_card,Swiggy - Food Dining
+TXN00001245,CUST01020,2025-07-31,food_dining,Starbucks,1384,credit_card,Starbucks - Food Dining
+TXN00001251,CUST01020,2025-07-31,healthcare,Fortis Hospital,8744,credit_card,Fortis Hospital - Healthcare
+TXN00001248,CUST01020,2025-08-05,groceries,Spencer's,3801,credit_card,Spencer's - Groceries
+TXN00001214,CUST01020,2025-08-17,entertainment,Spotify,921,credit_card,Spotify - Entertainment
+TXN00001243,CUST01020,2025-08-18,shopping,Myntra,5238,credit_card,Myntra - Shopping
+TXN00001265,CUST01020,2025-08-20,utilities,Gas Bill,1783,debit_card,Gas Bill - Utilities
+TXN00001221,CUST01020,2025-08-22,investment,Fixed Deposit,5532,debit_card,Fixed Deposit - Investment
+TXN00001224,CUST01020,2025-08-25,food_dining,McDonald's,1972,credit_card,McDonald's - Food Dining
+TXN00001228,CUST01020,2025-08-26,education,Udemy,10452,netbanking,Udemy - Education
+TXN00001223,CUST01020,2025-08-28,fuel,Indian Oil,1003,upi,Indian Oil - Fuel
+TXN00001237,CUST01020,2025-08-28,food_dining,Starbucks,1614,credit_card,Starbucks - Food Dining
+TXN00001216,CUST01020,2025-08-31,shopping,Amazon,1983,credit_card,Amazon - Shopping
+TXN00001226,CUST01020,2025-08-31,shopping,Westside,9431,credit_card,Westside - Shopping
+TXN00001257,CUST01020,2025-09-05,travel,Goibibo,24749,upi,Goibibo - Travel
+TXN00001215,CUST01020,2025-09-06,food_dining,Swiggy,1603,upi,Swiggy - Food Dining
+TXN00001209,CUST01020,2025-09-08,groceries,DMart,5988,credit_card,DMart - Groceries
+TXN00001254,CUST01020,2025-09-08,healthcare,Fortis Hospital,11624,debit_card,Fortis Hospital - Healthcare
+TXN00001225,CUST01020,2025-09-13,utilities,Mobile Recharge,3060,credit_card,Mobile Recharge - Utilities
+TXN00001262,CUST01020,2025-09-13,entertainment,Prime Video,1572,credit_card,Prime Video - Entertainment
+TXN00001219,CUST01020,2025-09-17,groceries,More Supermarket,3955,debit_card,More Supermarket - Groceries
+TXN00001260,CUST01020,2025-09-17,shopping,Myntra,9187,debit_card,Myntra - Shopping
+TXN00001232,CUST01020,2025-09-19,fuel,Shell,3552,credit_card,Shell - Fuel
+TXN00001210,CUST01020,2025-09-26,shopping,Myntra,3911,upi,Myntra - Shopping
+TXN00001247,CUST01020,2025-09-27,food_dining,Domino's,357,upi,Domino's - Food Dining
+TXN00001222,CUST01020,2025-10-03,shopping,Flipkart,14467,credit_card,Flipkart - Shopping
+TXN00001233,CUST01020,2025-10-03,shopping,Westside,6803,credit_card,Westside - Shopping
+TXN00001239,CUST01020,2025-10-06,fuel,Indian Oil,2004,debit_card,Indian Oil - Fuel
+TXN00001238,CUST01020,2025-10-07,investment,Paytm Money,35470,debit_card,Paytm Money - Investment
+TXN00001267,CUST01020,2025-10-07,food_dining,Starbucks,919,credit_card,Starbucks - Food Dining
+TXN00001252,CUST01020,2025-10-08,fuel,Bharat Petroleum,1345,netbanking,Bharat Petroleum - Fuel
+TXN00001259,CUST01020,2025-10-08,fuel,Indian Oil,2182,upi,Indian Oil - Fuel
+TXN00001258,CUST01020,2025-10-09,groceries,Reliance Fresh,5387,credit_card,Reliance Fresh - Groceries
+TXN00001212,CUST01020,2025-10-12,utilities,Gas Bill,3214,debit_card,Gas Bill - Utilities
+TXN00001213,CUST01020,2025-10-19,education,Coursera,20404,debit_card,Coursera - Education
+TXN00001236,CUST01020,2025-10-20,shopping,Amazon,9808,debit_card,Amazon - Shopping
+TXN00001241,CUST01020,2025-10-21,groceries,Big Bazaar,4314,debit_card,Big Bazaar - Groceries
+TXN00001211,CUST01020,2025-10-24,shopping,Westside,9793,upi,Westside - Shopping
+TXN00001250,CUST01020,2025-10-24,healthcare,Medlife,6858,upi,Medlife - Healthcare
+TXN00001253,CUST01020,2025-10-25,fuel,HP Petrol,4430,debit_card,HP Petrol - Fuel
+TXN00001255,CUST01020,2025-11-05,food_dining,Domino's,1703,upi,Domino's - Food Dining
+TXN00001240,CUST01020,2025-11-11,investment,Zerodha,49831,debit_card,Zerodha - Investment
+TXN00001229,CUST01020,2025-11-13,food_dining,Swiggy,346,debit_card,Swiggy - Food Dining
+TXN00001264,CUST01020,2025-11-14,healthcare,PharmEasy,13423,credit_card,PharmEasy - Healthcare
+TXN00001266,CUST01020,2025-11-14,food_dining,Swiggy,224,debit_card,Swiggy - Food Dining
+TXN00001220,CUST01020,2025-11-15,groceries,Reliance Fresh,7380,netbanking,Reliance Fresh - Groceries
+TXN00001244,CUST01020,2025-11-19,fuel,Bharat Petroleum,3977,upi,Bharat Petroleum - Fuel

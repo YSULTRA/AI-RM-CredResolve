@@ -1,0 +1,21 @@
+customer_id,name,age,risk_level,annual_income,financial_goals,account_opening_date,email,phone
+CUST01001,Sneha Sharma,42,low,1092632,retirement_planning,2023-09-30,sneha.sharma@email.com,+919906402157
+CUST01002,Shreya Patel,62,low,631244,retirement_planning,2022-06-11,shreya.patel@email.com,+917999270936
+CUST01003,Ravi Mehta,26,medium,775400,marriage_savings,2017-01-11,ravi.mehta@email.com,+919340505846
+CUST01004,Nisha Singh,53,medium,1448749,retirement_planning,2016-05-20,nisha.singh@email.com,+917685731524
+CUST01005,Nisha Iyer,42,low,1505889,children_education,2023-11-09,nisha.iyer@email.com,+918631775357
+CUST01006,Sneha Iyer,47,medium,1446335,children_education,2016-09-17,sneha.iyer@email.com,+918973214822
+CUST01007,Shreya Patel,49,low,907419,retirement_planning,2017-12-16,shreya.patel@email.com,+918553210608
+CUST01008,Nikhil Singh,29,low,519484,wealth_creation,2024-01-01,nikhil.singh@email.com,+917999829240
+CUST01009,Sneha Nair,42,medium,1565108,children_education,2020-09-28,sneha.nair@email.com,+918525876051
+CUST01010,Rohan Verma,42,medium,949741,retirement_planning,2017-10-10,rohan.verma@email.com,+917735034881
+CUST01011,Shreya Desai,40,low,1595775,wealth_creation,2017-09-19,shreya.desai@email.com,+919955633092
+CUST01012,Shreya Singh,45,high,1413694,children_education,2022-04-29,shreya.singh@email.com,+917137869475
+CUST01013,Arjun Nair,42,low,1989462,retirement_planning,2021-05-14,arjun.nair@email.com,+917913224047
+CUST01014,Pooja Nair,54,low,746413,retirement_planning,2016-07-16,pooja.nair@email.com,+919411057787
+CUST01015,Shreya Reddy,62,low,1211878,legacy_planning,2020-11-01,shreya.reddy@email.com,+917941975480
+CUST01016,Vikram Joshi,56,low,649405,retirement_planning,2023-03-07,vikram.joshi@email.com,+919694860228
+CUST01017,Ananya Rao,52,medium,1003457,legacy_planning,2018-03-19,ananya.rao@email.com,+919010258946
+CUST01018,Ravi Reddy,60,medium,612038,healthcare_fund,2016-10-23,ravi.reddy@email.com,+917491995979
+CUST01019,Shreya Rao,42,medium,1513399,children_education,2021-08-08,shreya.rao@email.com,+918867302554
+CUST01020,Ananya Gupta,25,high,777319,wealth_creation,2019-04-13,ananya.gupta@email.com,+917767303988

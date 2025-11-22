@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartBank AI - Built by Yash Singh</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --bg-card: rgba(30, 41, 59, 0.4);
+            --accent-primary: #8b5cf6;
+            --accent-secondary: #ec4899;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --border-color: rgba(148, 163, 184, 0.1);
+            --glass-border: 1px solid rgba(255, 255, 255, 0.08);
+            --glass-bg: rgba(15, 23, 42, 0.3);
+            --shadow-glow: 0 0 30px rgba(139, 92, 246, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scrollbar-width: thin;
+            scrollbar-color: var(--accent-primary) transparent;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #0f172a;
+            color: var(--text-primary);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #waveCanvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .container {
+            width: 95%;
+            max-width: 1400px;
+            height: 92vh;
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: var(--glass-border);
+            border-radius: 24px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            display: flex;
+            overflow: hidden;
+            position: relative;
+            z-index: 10;
+        }
+
+        .sidebar {
+            width: 320px;
+            background: rgba(15, 23, 42, 0.2);
+            border-right: var(--glass-border);
+            display: flex;
+            flex-direction: column;
+            padding: 24px;
+            gap: 20px;
+            backdrop-filter: blur(5px);
+        }
+
+        .sidebar-header {
+            margin-bottom: 10px;
+        }
+
+        .logo {
+            font-family: 'Outfit', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            background: linear-gradient(to right, #c084fc, #f472b6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 4px;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            font-size: 13px;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .bento-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .bento-card {
+            background: rgba(30, 41, 59, 0.3);
+            border: var(--glass-border);
+            border-radius: 16px;
+            padding: 16px;
+            transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+            backdrop-filter: blur(5px);
+        }
+
+        .bento-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-glow);
+            background: rgba(30, 41, 59, 0.5);
+            border-color: rgba(139, 92, 246, 0.3);
+        }
+
+        .card-title {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+        }
+
+        .info-row:last-child {
+            border-bottom: none;
+        }
+
+        .info-label {
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+
+        .info-value {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        /* Developer Card Styling */
+        .dev-card {
+            margin-top: auto;
+            background: rgba(139, 92, 246, 0.15);
+            border-color: rgba(139, 92, 246, 0.3);
+        }
+
+        .dev-link {
+            text-decoration: none;
+            color: var(--accent-primary);
+            transition: color 0.2s;
+        }
+
+        .dev-link:hover {
+            color: var(--accent-secondary);
+            text-decoration: underline;
+        }
+
+        .customer-select-wrapper {
+            position: relative;
+            margin-bottom: 10px;
+        }
+
+        select {
+            width: 100%;
+            padding: 14px;
+            background: rgba(30, 41, 59, 0.3);
+            border: var(--glass-border);
+            border-radius: 12px;
+            color: var(--text-primary);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 14px;
+            cursor: pointer;
+            appearance: none;
+            transition: all 0.2s;
+            backdrop-filter: blur(5px);
+        }
+
+        select:focus {
+            outline: none;
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.2);
+            background: rgba(30, 41, 59, 0.5);
+        }
+
+        .new-chat-btn {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            border: none;
+            border-radius: 12px;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: all 0.3s;
+            margin-top: 12px;
+            font-size: 14px;
+        }
+
+        .new-chat-btn:hover {
+            opacity: 0.9;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(236, 72, 153, 0.3);
+        }
+
+        .chat-area {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            background: rgba(15, 23, 42, 0.1);
+        }
+
+        .chat-header {
+            padding: 24px 32px;
+            border-bottom: var(--glass-border);
+            background: rgba(15, 23, 42, 0.1);
+            backdrop-filter: blur(5px);
+        }
+
+        .chat-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background: #4ade80;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #4ade80;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.4); }
+            70% { box-shadow: 0 0 0 6px rgba(74, 222, 128, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(74, 222, 128, 0); }
+        }
+
+        .chat-messages {
+            flex: 1;
+            padding: 32px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .message {
+            display: flex;
+            align-items: flex-end;
+            max-width: 80%;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        .message.user {
+            align-self: flex-end;
+            flex-direction: row-reverse;
+        }
+
+        .message.assistant {
+            align-self: flex-start;
+        }
+
+        .message-content {
+            padding: 16px 20px;
+            border-radius: 20px;
+            font-size: 15px;
+            line-height: 1.6;
+            position: relative;
+        }
+
+        .message.user .message-content {
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            color: white;
+            border-bottom-right-radius: 4px;
+            box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+        }
+
+        .message.assistant .message-content {
+            background: rgba(30, 41, 59, 0.4);
+            color: var(--text-primary);
+            border: var(--glass-border);
+            border-bottom-left-radius: 4px;
+            backdrop-filter: blur(5px);
+        }
+
+        /* Markdown Content Styling */
+        .message-content ul, .message-content ol {
+            margin-left: 20px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        .message-content p {
+            margin-bottom: 8px;
+        }
+
+        .message-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        .message-content strong {
+            color: var(--accent-secondary);
+            font-weight: 600;
+        }
+
+        .message-time {
+            font-size: 11px;
+            margin-top: 6px;
+            opacity: 0.6;
+            text-align: right;
+        }
+
+        .typing-indicator {
+            display: flex;
+            gap: 4px;
+            padding: 12px 16px;
+            background: rgba(30, 41, 59, 0.4);
+            border-radius: 20px;
+            border-bottom-left-radius: 4px;
+            width: fit-content;
+            align-items: center;
+            backdrop-filter: blur(5px);
+            border: var(--glass-border);
+        }
+
+        .typing-text {
+            font-size: 12px;
+            color: var(--text-secondary);
+            margin-right: 8px;
+        }
+
+        .dot {
+            width: 6px;
+            height: 6px;
+            background: var(--accent-primary);
+            border-radius: 50%;
+            animation: bounce 1.4s infinite ease-in-out;
+        }
+
+        .dot:nth-child(1) { animation-delay: -0.32s; }
+        .dot:nth-child(2) { animation-delay: -0.16s; }
+
+        .input-area {
+            padding: 24px 32px;
+            background: rgba(15, 23, 42, 0.2);
+            border-top: var(--glass-border);
+            backdrop-filter: blur(10px);
+        }
+
+        .suggestions {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 16px;
+            overflow-x: auto;
+            padding-bottom: 4px;
+        }
+
+        .suggestion-chip {
+            background: rgba(139, 92, 246, 0.1);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            color: #e2e8f0;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.2s;
+            backdrop-filter: blur(3px);
+        }
+
+        .suggestion-chip:hover {
+            background: rgba(139, 92, 246, 0.2);
+            border-color: var(--accent-primary);
+            transform: translateY(-1px);
+        }
+
+        .input-wrapper {
+            position: relative;
+            display: flex;
+            gap: 12px;
+            background: rgba(30, 41, 59, 0.3);
+            padding: 8px;
+            border-radius: 16px;
+            border: var(--glass-border);
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+        }
+
+        .input-wrapper:focus-within {
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.2);
+            background: rgba(30, 41, 59, 0.5);
+        }
+
+        textarea {
+            flex: 1;
+            background: transparent;
+            border: none;
+            color: var(--text-primary);
+            padding: 12px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 15px;
+            resize: none;
+            height: 48px;
+            max-height: 120px;
+        }
+
+        textarea:focus {
+            outline: none;
+        }
+
+        textarea::placeholder {
+            color: rgba(148, 163, 184, 0.6);
+        }
+
+        .send-btn {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            border: none;
+            border-radius: 12px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .send-btn:hover {
+            transform: scale(1.05);
+        }
+
+        .send-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .welcome-screen {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            text-align: center;
+            color: var(--text-secondary);
+        }
+
+        .welcome-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes bounce {
+            0%, 80%, 100% { transform: scale(0); }
+            40% { transform: scale(1); }
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(148, 163, 184, 0.2);
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(148, 163, 184, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <canvas id="waveCanvas"></canvas>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">SmartBank AI</div>
+                <div class="subtitle">Relationship Manager Pro</div>
+            </div>
+
+            <div class="customer-select-wrapper">
+                <select id="customerSelect">
+                    <option value="">Select Customer Profile...</option>
+                    {% for customer in customers %}
+                    <option value="{{ customer.customer_id }}">{{ customer.name }}</option>
+                    {% endfor %}
+                </select>
+                <button id="newChatBtn" class="new-chat-btn" style="display: none;">
+                    <span>+</span> Start New Session
+                </button>
+            </div>
+
+            <div class="bento-grid" id="customerInfo">
+                <div style="text-align: center; padding: 40px; color: var(--text-secondary);">
+                    <div style="font-size: 24px; margin-bottom: 8px;">👥</div>
+                    Select a customer to view profile data
+                </div>
+            </div>
+
+            <!-- NEW DEVELOPER INFO SECTION -->
+            <div class="bento-card dev-card" style="animation: slideIn 0.5s ease-out;">
+                <div class="card-title" style="color: var(--accent-primary);">👨‍💻 Built By</div>
+                <div class="info-row">
+                    <span class="info-label">Developer</span>
+                    <span class="info-value">Yash Singh</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Email</span>
+                    <a href="mailto:singh.yash152004@gmail.com" class="dev-link" style="font-size: 13px;">singh.yash152004@gmail.com</a>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">GitHub</span>
+                    <a href="https://github.com/YSULTRA" target="_blank" class="dev-link">@YSULTRA</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-area">
+            <div class="chat-header">
+                <div class="chat-title">
+                    <div class="status-dot"></div>
+                    Arya (AI Assistant)
+                </div>
+            </div>
+
+            <div class="chat-messages" id="chatMessages">
+                <div class="welcome-screen">
+                    <div class="welcome-icon">✨</div>
+                    <h2>Welcome to SmartBank AI</h2>
+                    <p style="margin-top: 8px;">Select a customer profile to begin advisory session</p>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <div class="suggestions" id="suggestions"></div>
+                <div class="input-wrapper">
+                    <textarea id="chatInput" placeholder="Type your message here..." rows="1" disabled></textarea>
+                    <button id="sendButton" class="send-btn" disabled>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('waveCanvas');
+        const ctx = canvas.getContext('2d');
+
+        let width, height, dots;
+
+        const dotProperties = {
+            maxSize: 1.5,
+            minSize: 0.5,
+            spacing: 30,
+            amplitude: 40,
+            waveLength: 200,
+            speed: 0.05,
+            color: 'rgba(139, 92, 246, 0.4)'
+        };
+
+        function init() {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            dots = [];
+
+            for (let x = 0; x < width; x += dotProperties.spacing) {
+                for (let y = 0; y < height; y += dotProperties.spacing) {
+                    const originalX = x;
+                    const originalY = y;
+                    dots.push({ x, y, originalX, originalY });
+                }
+            }
+        }
+
+        let frame = 0;
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+
+            dots.forEach(dot => {
+                const distance = Math.sqrt(Math.pow(dot.originalX - width / 2, 2) + Math.pow(dot.originalY - height / 2, 2));
+                const wave = Math.sin((distance / dotProperties.waveLength) - (frame * dotProperties.speed));
+                const newY = dot.originalY + wave * dotProperties.amplitude;
+                const size = dotProperties.minSize + (wave + 1) / 2 * (dotProperties.maxSize - dotProperties.minSize);
+
+                ctx.beginPath();
+                ctx.arc(dot.originalX, newY, size, 0, 2 * Math.PI);
+                ctx.fillStyle = dotProperties.color;
+                ctx.fill();
+            });
+
+            frame++;
+            requestAnimationFrame(animate);
+        }
+
+        init();
+        animate();
+        window.onresize = init;
+
+        const state = {
+            customerId: null,
+            conversationId: null,
+            context: null,
+            conversations: new Map()
+        };
+
+        const els = {
+            select: document.getElementById('customerSelect'),
+            info: document.getElementById('customerInfo'),
+            messages: document.getElementById('chatMessages'),
+            input: document.getElementById('chatInput'),
+            sendBtn: document.getElementById('sendButton'),
+            suggestions: document.getElementById('suggestions'),
+            newChatBtn: document.getElementById('newChatBtn')
+        };
+
+        els.select.addEventListener('change', async (e) => {
+            state.customerId = e.target.value;
+            if (state.customerId) {
+                els.newChatBtn.style.display = 'flex';
+                await loadContext();
+                enableChat();
+
+                if (state.conversations.has(state.customerId)) {
+                    state.conversationId = state.conversations.get(state.customerId);
+                    await loadHistory();
+                } else {
+                    showWelcome();
+                }
+            }
+        });
+
+        els.newChatBtn.addEventListener('click', () => {
+            if (state.customerId) {
+                state.conversations.delete(state.customerId);
+                state.conversationId = null;
+                showWelcome();
+            }
+        });
+
+        els.sendBtn.addEventListener('click', sendMessage);
+        els.input.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+
+        async function loadContext() {
+            try {
+                const res = await fetch(`/api/context/${state.customerId}/`);
+                state.context = await res.json();
+                renderProfile(state.context);
+            } catch (err) {
+                console.error('Context Error:', err);
+            }
+        }
+
+        async function loadHistory() {
+            if (!state.conversationId) return;
+
+            try {
+                const res = await fetch(`/api/conversation/${state.conversationId}/`);
+                const data = await res.json();
+
+                els.messages.innerHTML = '';
+
+                if (data.messages && data.messages.length > 0) {
+                    data.messages.forEach(msg => {
+                        addMessage(msg.role, msg.content);
+                    });
+                    scrollToBottom();
+                } else {
+                    showWelcome();
+                }
+
+                updateSuggestions([
+                    "How much did I spend last month?",
+                    "Analyze my investment portfolio",
+                    "Suggest ways to save more money"
+                ]);
+            } catch (err) {
+                console.error('History Error:', err);
+                showWelcome();
+            }
+        }
+
+        function renderProfile(data) {
+            const { customer, transaction_summary: trans, investment_summary: inv } = data;
+
+            els.info.innerHTML = `
+                <div class="bento-card" style="animation: slideIn 0.2s ease-out">
+                    <div class="card-title">👤 Personal Profile</div>
+                    <div class="info-row">
+                        <span class="info-label">Name</span>
+                        <span class="info-value">${customer.name}</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Age</span>
+                        <span class="info-value">${customer.age}</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Risk Profile</span>
+                        <span class="info-value" style="color: var(--accent-secondary)">${customer.risk_level.toUpperCase()}</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Annual Income</span>
+                        <span class="info-value">₹${formatNum(customer.annual_income)}</span>
+                    </div>
+                </div>
+
+                <div class="bento-card" style="animation: slideIn 0.3s ease-out">
+                    <div class="card-title">💳 Spending (6M)</div>
+                    <div class="info-row">
+                        <span class="info-label">Total Spent</span>
+                        <span class="info-value">₹${formatNum(trans.total_spent)}</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Monthly Avg</span>
+                        <span class="info-value">₹${formatNum(trans.monthly_average)}</span>
+                    </div>
+                </div>
+
+                <div class="bento-card" style="animation: slideIn 0.4s ease-out">
+                    <div class="card-title">📈 Investment Portfolio</div>
+                    <div class="info-row">
+                        <span class="info-label">Current Value</span>
+                        <span class="info-value" style="color: var(--accent-primary)">₹${formatNum(inv.current_value)}</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Net Returns</span>
+                        <span class="info-value" style="color: #4ade80">+${inv.return_percentage.toFixed(2)}%</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Holdings</span>
+                        <span class="info-value">${inv.investment_count} Assets</span>
+                    </div>
+                </div>
+            `;
+        }
+
+        function showWelcome() {
+            els.messages.innerHTML = '';
+            const msg = document.createElement('div');
+            msg.className = 'message assistant';
+            msg.innerHTML = `
+                <div class="message-content">
+                    Hey ${state.context.customer.name.split(' ')[0]}! 👋<br><br>
+                    I'm Arya, your personal wealth manager. I've analyzed your profile and I'm ready to help!<br><br>
+                    How can I assist you today?
+                    <div class="message-time">${getTime()}</div>
+                </div>
+            `;
+            els.messages.appendChild(msg);
+            updateSuggestions([
+                "How much did I spend last month?",
+                "Analyze my investment portfolio",
+                "Suggest ways to save more money"
+            ]);
+        }
+
+        async function sendMessage() {
+            const text = els.input.value.trim();
+            if (!text) return;
+
+            addMessage('user', text);
+            els.input.value = '';
+            els.input.style.height = 'auto';
+            els.suggestions.innerHTML = '';
+
+            const typingEl = showTyping();
+
+            try {
+                const res = await fetch('/api/chat/', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        customer_id: state.customerId,
+                        message: text,
+                        conversation_id: state.conversationId
+                    })
+                });
+
+                const data = await res.json();
+
+                if (data.conversation_id) {
+                    state.conversationId = data.conversation_id;
+                    state.conversations.set(state.customerId, state.conversationId);
+                }
+
+                await wait(1500);
+                typingEl.remove();
+
+                await typeWriterResponse(data.response);
+
+                if (data.suggestions) updateSuggestions(data.suggestions);
+
+            } catch (err) {
+                typingEl.remove();
+                addMessage('assistant', "⚠️ Connection error. Please try again.");
+            }
+        }
+
+        function addMessage(role, text) {
+            const div = document.createElement('div');
+            div.className = `message ${role}`;
+            div.innerHTML = `
+                <div class="message-content">
+                    ${marked.parse(text.replace(/\n/g, '<br>'))}
+                    <div class="message-time">${getTime()}</div>
+                </div>
+            `;
+            els.messages.appendChild(div);
+            scrollToBottom();
+        }
+
+        async function typeWriterResponse(text) {
+            const div = document.createElement('div');
+            div.className = 'message assistant';
+            const content = document.createElement('div');
+            content.className = 'message-content';
+            div.appendChild(content);
+            els.messages.appendChild(div);
+
+            const words = text.split(' ');
+            let currentText = '';
+
+            for (let word of words) {
+                currentText += word + ' ';
+                content.innerHTML = marked.parse(currentText.replace(/\n/g, '<br>')) +
+                    `<div class="message-time">${getTime()}</div>`;
+                scrollToBottom();
+                await wait(30 + Math.random() * 50);
+            }
+        }
+
+        function showTyping() {
+            const div = document.createElement('div');
+            div.className = 'typing-indicator';
+            div.innerHTML = `
+                <span class="typing-text">Arya is typing</span>
+                <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+            `;
+            els.messages.appendChild(div);
+            scrollToBottom();
+            return div;
+        }
+
+        function updateSuggestions(items) {
+            els.suggestions.innerHTML = items.map(t =>
+                `<div class="suggestion-chip" onclick="useSuggestion('${t.replace(/'/g, "\\\\'")}')">${t}</div>`
+            ).join('');
+        }
+
+        window.useSuggestion = (text) => {
+            els.input.value = text;
+            sendMessage();
+        };
+
+        function enableChat() {
+            els.input.disabled = false;
+            els.sendBtn.disabled = false;
+            els.input.focus();
+        }
+
+        function scrollToBottom() {
+            els.messages.scrollTop = els.messages.scrollHeight;
+        }
+
+        function formatNum(n) {
+            return new Intl.NumberFormat('en-IN').format(Math.round(n));
+        }
+
+        function getTime() {
+            return new Date().toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' });
+        }
+
+        const wait = (ms) => new Promise(r => setTimeout(r, ms));
+
+        els.input.addEventListener('input', function() {
+            this.style.height = 'auto';
+            this.style.height = Math.min(this.scrollHeight, 120) + 'px';
+        });
+    </script>
+</body>
+</html>
